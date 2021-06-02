@@ -29,6 +29,15 @@ p,li,a,i,span{
 .d-grid{
     display: grid;
 }
+.js-c{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.js-sb{
+    justify-content: space-between;
+}
 // grid-end
 // flex-start
 .d-flex{
