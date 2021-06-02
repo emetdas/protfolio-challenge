@@ -63,3 +63,15 @@ p, li, a, i, span {
 
 .d-flex {
   display: flex; }
+
+.flex-d-row {
+  flex-direction: row; }
+
+.flex-d-column {
+  flex-direction: column; }
+
+.flex-d-row-r {
+  flex-direction: row-reverse; }
+
+.flex-d-column-r {
+  flex-direction: column-reverse; }
