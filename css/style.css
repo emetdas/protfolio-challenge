@@ -83,7 +83,9 @@ p, li, a, i, span {
   background: #07001d; }
   .mobile-icon::after {
     width: 100%;
-    height: 100%; }
-  .mobile-icon::after {
+    height: 100%;
+    background: #07001d; }
+  .mobile-icon::before {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    background: #07001d; }
