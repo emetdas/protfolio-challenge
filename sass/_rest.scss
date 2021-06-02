@@ -14,7 +14,7 @@ body,html{
     font-size: 62%;
 }
 @for $i from 1 through 6 {
-    h#{$i} { width: (6rem / $i);}
+    h#{$i} { font-size: (6rem / $i);}
 }
 p,li,a{
     font-size: 1.6rem;

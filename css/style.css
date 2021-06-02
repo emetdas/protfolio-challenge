@@ -14,22 +14,22 @@ body, html {
   font-size: 62%; }
 
 h1 {
-  width: 6rem; }
+  font-size: 6rem; }
 
 h2 {
-  width: 3rem; }
+  font-size: 3rem; }
 
 h3 {
-  width: 2rem; }
+  font-size: 2rem; }
 
 h4 {
-  width: 1.5rem; }
+  font-size: 1.5rem; }
 
 h5 {
-  width: 1.2rem; }
+  font-size: 1.2rem; }
 
 h6 {
-  width: 1rem; }
+  font-size: 1rem; }
 
 p, li, a {
   font-size: 1.6rem; }
