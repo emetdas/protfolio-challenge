@@ -1,3 +1,10 @@
+@mixin b-r50(){
+    border-radius: 50%;
+}
+@mixin w-h($w,$h){
+    width: $w;
+    height: $h;
+}
 @mixin bg_rgba($r,$g,$b,$a){
     background: rgba($r,$g,$b,$a);
 }
