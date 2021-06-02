@@ -33,3 +33,15 @@ h6 {
 
 p, li, a, i, span {
   font-size: 1.6rem; }
+
+.container {
+  max-width: 112rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem; }
+
+.d-grid {
+  display: grid; }
+
+.d-flex {
+  display: flex; }

@@ -19,3 +19,15 @@ body,html{
 p,li,a,i,span{
     font-size: 1.6rem;
 }
+.container{
+    max-width: $container;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.d-grid{
+    display: grid;
+}
+.d-flex{
+    display: flex;
+}
