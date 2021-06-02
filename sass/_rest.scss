@@ -35,8 +35,17 @@ p,li,a,i,span{
 .align-center{
     align-items: center;
 }
+.align-content-center{
+    align-content: center;
+}
 .js-sb{
     justify-content: space-between;
+}
+.js-sa{
+    justify-content: space-around;
+}
+.js-se{
+    justify-content: space-evenly;
 }
 // grid-end
 // flex-start
