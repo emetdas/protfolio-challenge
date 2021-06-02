@@ -4,7 +4,9 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  list-style-type: none;
+  text-decoration: none; }
 
 body, html {
   box-sizing: border-box;
