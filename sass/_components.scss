@@ -10,12 +10,22 @@
         width: 100%;
         height: 100%;
         background: $black-shade;
+        transition:  all 0.5s ease-in-out;
     }
     &::before{
         transform: translateY(-1rem);
     }
     &::after{
         transform: translateY(1rem);
+    }
+    &.active{
+        background: transparent;
+        &::before{
+            transform: rotate(45deg);
+        }
+        &::after{
+            transform: rotate(-45deg);
+        }
     }
 }
 // ----------Heading----------

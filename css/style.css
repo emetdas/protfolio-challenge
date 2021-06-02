@@ -86,8 +86,15 @@ p, li, a, i, span {
     content: '';
     width: 100%;
     height: 100%;
-    background: #07001d; }
+    background: #07001d;
+    transition: all 0.5s ease-in-out; }
   .mobile-icon::before {
     transform: translateY(-1rem); }
   .mobile-icon::after {
     transform: translateY(1rem); }
+  .mobile-icon.active {
+    background: transparent; }
+    .mobile-icon.active::before {
+      transform: rotate(45deg); }
+    .mobile-icon.active::after {
+      transform: rotate(-45deg); }
