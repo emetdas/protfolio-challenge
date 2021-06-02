@@ -9,6 +9,7 @@
     text-decoration: none;
 }
 body,html{
+    overflow-x: hidden;
     box-sizing: border-box;
     font-family: $font-primary;
     font-size: 62%;

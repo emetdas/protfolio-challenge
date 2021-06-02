@@ -1,3 +1,17 @@
 // Navigation-start
-
+header{
+    width: 100%;
+}
+nav{
+    height: $nav-height;
+}
+.manue{
+    position: absolute;
+    top: $nav-height;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - #{$nav-height});
+    background: $black-shade;
+    text-align: center;
+}
 // Navigation-end

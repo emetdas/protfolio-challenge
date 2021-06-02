@@ -9,6 +9,7 @@
   text-decoration: none; }
 
 body, html {
+  overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
   font-size: 62%; }
@@ -98,3 +99,18 @@ p, li, a, i, span {
       transform: rotate(45deg); }
     .mobile-icon.active::after {
       transform: rotate(-45deg); }
+
+header {
+  width: 100%; }
+
+nav {
+  height: 6rem; }
+
+.manue {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 6rem);
+  background: #07001d;
+  text-align: center; }
