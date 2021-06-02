@@ -10,4 +10,26 @@
 
 body, html {
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Rubik", sans-serif;
+  font-size: 62%; }
+
+h1 {
+  width: 6rem; }
+
+h2 {
+  width: 3rem; }
+
+h3 {
+  width: 2rem; }
+
+h4 {
+  width: 1.5rem; }
+
+h5 {
+  width: 1.2rem; }
+
+h6 {
+  width: 1rem; }
+
+p, li, a {
+  font-size: 1.6rem; }

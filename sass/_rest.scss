@@ -11,4 +11,11 @@
 body,html{
     box-sizing: border-box;
     font-family: $font-primary;
+    font-size: 62%;
+}
+@for $i from 1 through 6 {
+    h#{$i} { width: (6rem / $i);}
+}
+p,li,a{
+    font-size: 1.6rem;
 }
