@@ -13,5 +13,8 @@ nav{
     height: calc(100vh - #{$nav-height});
     background: $black-shade;
     text-align: center;
+    & li:nth-child(1){
+        margin-top: 2rem; 
+    }
 }
 // Navigation-end
