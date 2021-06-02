@@ -6,7 +6,7 @@
     "scripts": {
       "start": "node-sass sass/style.scss css/style.css -w",
       "compress:css":"node-sass css/style.css css/compile.css --output-style compressed",
-      "install": "babel main.js --watch --out-dir js",
+      "install": "babel js/main.js --watch --out-dir js/script.js",
       "dev": "parcel index.html",
       "build": "parcel build index.html --out-dir production"
     },
