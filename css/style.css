@@ -81,11 +81,13 @@ p, li, a, i, span {
   width: 3rem;
   height: 0.4rem;
   background: #07001d; }
-  .mobile-icon::after {
+  .mobile-icon::before, .mobile-icon::after {
+    position: absolute;
+    content: '';
     width: 100%;
     height: 100%;
     background: #07001d; }
   .mobile-icon::before {
-    width: 100%;
-    height: 100%;
-    background: #07001d; }
+    transform: translateY(-1rem); }
+  .mobile-icon::after {
+    transform: translateY(1rem); }

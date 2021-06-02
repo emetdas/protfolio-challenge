@@ -4,15 +4,18 @@
     width: 3rem;
     height: 0.4rem;
     background: $black-shade;
-    &::after{
+    &::before,&::after{
+        position: absolute;
+        content: '';
         width: 100%;
         height: 100%;
         background: $black-shade;
     }
     &::before{
-        width: 100%;
-        height: 100%;
-        background: $black-shade;
+        transform: translateY(-1rem);
+    }
+    &::after{
+        transform: translateY(1rem);
     }
 }
 // ----------Heading----------
