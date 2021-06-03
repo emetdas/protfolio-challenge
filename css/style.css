@@ -116,8 +116,9 @@ p, li, a, i, span {
     height: 0.4rem;
     z-index: 10;
     background: #5363f7;
-    bottom: -0.23rem;
-    transform: translateX(-50%); }
+    bottom: -0.2rem;
+    transform: translateX(-50%);
+    border-radius: 1rem; }
   .heading::after {
     position: absolute;
     content: '';

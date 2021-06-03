@@ -40,8 +40,9 @@
         height: 0.4rem; 
         z-index: 10;
         background: $primary;
-        bottom: -0.23rem; 
+        bottom: -0.2rem; 
         transform: translateX(-50%);
+        border-radius: 1rem;
     }
     &::after{
         position: absolute;
