@@ -78,6 +78,7 @@ p, li, a, i, span {
   flex-direction: column-reverse; }
 
 .mobile-icon {
+  cursor: pointer;
   position: relative;
   width: 3rem;
   height: 0.34rem;

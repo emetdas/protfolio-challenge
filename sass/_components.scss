@@ -1,5 +1,6 @@
 // ----------Nav-mobile-icon----------
 .mobile-icon{
+    cursor: pointer;
     position: relative;
     @include w-h(3rem,0.34rem);
     background: $black-shade;
