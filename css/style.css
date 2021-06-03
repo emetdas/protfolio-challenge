@@ -107,16 +107,16 @@ p, li, a, i, span {
 .heading {
   margin: 2rem 0;
   position: relative;
-  padding: 1rem 0; }
+  padding: 0.5rem 0; }
   .heading::before {
     position: absolute;
     content: '';
     left: 50%;
-    width: 4rem;
+    width: 3rem;
     height: 0.4rem;
     z-index: 10;
     background: #5363f7;
-    bottom: -0.2rem;
+    bottom: -0.1rem;
     transform: translateX(-50%);
     border-radius: 1rem; }
   .heading::after {
@@ -124,9 +124,9 @@ p, li, a, i, span {
     content: '';
     left: 50%;
     width: 10rem;
-    height: 0.2rem;
+    height: 0.1rem;
     background: #07001d;
-    bottom: -0.1rem;
+    bottom: 0;
     transform: translateX(-50%); }
 
 .btn-primary-hire {
