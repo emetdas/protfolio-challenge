@@ -177,4 +177,5 @@ nav {
   gap: 1rem; }
   .home-content .btn-container {
     display: grid;
-    gap: 1rem; }
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
