@@ -1,33 +1,31 @@
-@mixin b-r50(){
-    border-radius: 50%;
+@mixin b-r50() {
+  border-radius: 50%;
 }
-@mixin w-h($w,$h){
-    width: $w;
-    height: $h;
+@mixin w-h($w, $h) {
+  width: $w;
+  height: $h;
 }
-@mixin bg_rgba($r,$g,$b,$a){
-    background: rgba($r,$g,$b,$a);
+@mixin bg_rgba($r, $g, $b, $a) {
+  background: rgba($r, $g, $b, $a);
 }
-@mixin rgba($c,$a){
-    background: rgba($c,$a);
+@mixin rgba($c, $a) {
+  background: rgba($c, $a);
 }
-@mixin prefixTf($t,$s,$e){
--webkit-transform: $t #{$s}s $e;
--moz-transform: $t #{$s}s $e;
--ms-transform: $t #{$s}s $e;
--o-transform: $t #{$s}s $e;
-transform: $t #{$s}s $e;
+@mixin prefixTf($t, $s, $e) {
+  -webkit-transform: $t #{$s}s $e;
+  -moz-transform: $t #{$s}s $e;
+  -ms-transform: $t #{$s}s $e;
+  -o-transform: $t #{$s}s $e;
+  transform: $t #{$s}s $e;
 }
-@mixin prefixT($t,$s,$e){
--webkit-transition: $t #{$s}s $e;
--moz-transition: $t #{$s}s $e;
--ms-transition: $t #{$s}s $e;
--o-transition: $t #{$s}s $e;
-transition: $t #{$s}s $e;
+@mixin prefixT($t, $s, $e) {
+  -webkit-transition: $t #{$s}s $e;
+  -moz-transition: $t #{$s}s $e;
+  -ms-transition: $t #{$s}s $e;
+  -o-transition: $t #{$s}s $e;
+  transition: $t #{$s}s $e;
 }
-
-
-
-
-
-
+@mixin bx-shadow($h, $v, $b, $c) {
+  // h-offset v-offset blur spread color
+  box-shadow: $h $v $b $c;
+}
