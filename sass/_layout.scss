@@ -11,7 +11,8 @@ nav{
     left: 0;
     width: 100%;
     height: calc(100vh - #{$nav-height});
-    background: $black-shade;
+    background: $white;
+    z-index: 99;
     text-align: center;
     & li:nth-child(1){
         margin-top: 2rem; 
@@ -19,7 +20,7 @@ nav{
     & li a{
         margin-top: 1rem;
         padding: 0.5rem 1rem;
-        color: $white;
+        color: $black-shade;
     }
 }
 // Navigation-end
