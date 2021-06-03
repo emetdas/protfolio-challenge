@@ -15,14 +15,16 @@ nav{
     z-index: 99;
     text-align: center;
     & li:nth-child(1){
-        margin-top: 2rem; 
+        margin-top: 4rem; 
     }
     & li{
         margin-top: 2rem;
     }
     & li a{
+        font-size: 1.7rem;
         padding: 0.5rem 1rem;
         color: $black-shade;
+        text-transform: capitalize;
     }
 }
 // Navigation-end

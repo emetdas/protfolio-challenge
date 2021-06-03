@@ -116,9 +116,11 @@ nav {
   z-index: 99;
   text-align: center; }
   .manue li:nth-child(1) {
-    margin-top: 2rem; }
+    margin-top: 4rem; }
   .manue li {
     margin-top: 2rem; }
   .manue li a {
+    font-size: 1.7rem;
     padding: 0.5rem 1rem;
-    color: #07001d; }
+    color: #07001d;
+    text-transform: capitalize; }
