@@ -25,7 +25,7 @@
   -o-transition: $t #{$s}s $e;
   transition: $t #{$s}s $e;
 }
-@mixin bx-shadow($h, $v, $b,$s:"",$c) {
+@mixin bx-shadow($h, $v, $b,$c) {
   // h-offset v-offset blur spread color
-  box-shadow: $h $v $b #{$s} $c;
+  box-shadow: $h $v $b $c;
 }
