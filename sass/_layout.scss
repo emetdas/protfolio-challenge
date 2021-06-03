@@ -55,5 +55,10 @@ nav{
 // Home-start
 .home-content{
     gap: 1rem;
+    & .btn-container{
+        display: grid;
+        gap: 1rem;
+        
+    }
 }
 // Home-end

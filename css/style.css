@@ -175,3 +175,6 @@ nav {
 
 .home-content {
   gap: 1rem; }
+  .home-content .btn-container {
+    display: grid;
+    gap: 1rem; }
