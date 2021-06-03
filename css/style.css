@@ -169,27 +169,27 @@ nav {
   height: 6rem; }
 
 .mobile-icon.active + .manue {
-  display: block;
   left: 0;
-  -webkit-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  opacity: 1; }
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  visibility: visible; }
 
 .manue {
   opacity: 0;
-  display: none;
+  visibility: hidden;
   position: absolute;
   top: 6rem;
-  left: 100%;
+  left: 0;
   width: 100%;
   height: calc(100vh - 6rem);
   background: white;
   z-index: 99;
   text-align: center;
-  -webkit-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in; }
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
   .manue li:nth-child(1) {
     margin-top: 4rem; }
   .manue li {
