@@ -112,7 +112,12 @@ nav {
   left: 0;
   width: 100%;
   height: calc(100vh - 6rem);
-  background: #07001d;
+  background: white;
+  z-index: 99;
   text-align: center; }
   .manue li:nth-child(1) {
     margin-top: 2rem; }
+  .manue li a {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: #07001d; }
