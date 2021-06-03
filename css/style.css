@@ -111,7 +111,15 @@ p, li, a, i, span {
   -ms-text-stroke-color: #07001d;
   -o-text-stroke-color: #07001d; }
   .logo .logo-art {
-    font-size: 3rem; }
+    font-size: 3rem;
+    -webkit-text-stroke-color: #5363f7;
+    -moz-text-stroke-color: #5363f7;
+    -ms-text-stroke-color: #5363f7;
+    -o-text-stroke-color: #5363f7;
+    -webkit-text-fill-color: #5363f7;
+    -moz-text-fill-color: #5363f7;
+    -ms-text-fill-color: #5363f7;
+    -o-text-fill-color: #5363f7; }
 
 header {
   height: 6rem;

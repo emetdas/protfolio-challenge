@@ -21,7 +21,11 @@
   -ms-text-stroke-color: $c;
   -o-text-stroke-color: $c;
 }
-@mixin prefixTf($c){
+@mixin prefixTtf($c){
+    -webkit-text-stroke-color: $c;
+    -moz-text-stroke-color: $c;
+    -ms-text-stroke-color: $c;
+    -o-text-stroke-color: $c;
     -webkit-text-fill-color: $c;
     -moz-text-fill-color: $c;
     -ms-text-fill-color: $c;
