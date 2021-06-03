@@ -29,12 +29,29 @@
 }
 // ----------Heading----------
 .heading{
+    margin: 2rem 0;
     position: relative;
+    padding: 1rem 0;
+    &::before{
+        position: absolute;
+        content: '';
+        left: 50%;
+        width: 4rem;
+        height: 0.4rem; 
+        z-index: 10;
+        background: $primary;
+        bottom: -0.23rem; 
+        transform: translateX(-50%);
+    }
     &::after{
         position: absolute;
         content: '';
-        left: 0;
-        width: 100%;
+        left: 50%;
+        width: 10rem;
+        height: 0.2rem;
+        background: $black-shade;
+        bottom: -0.1rem;  
+        transform: translateX(-50%);
     }
 }
 // ----------Paragraph----------

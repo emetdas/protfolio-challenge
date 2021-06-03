@@ -105,12 +105,28 @@ p, li, a, i, span {
       transform: rotate(-45deg); }
 
 .heading {
-  position: relative; }
+  margin: 2rem 0;
+  position: relative;
+  padding: 1rem 0; }
+  .heading::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    width: 4rem;
+    height: 0.4rem;
+    z-index: 10;
+    background: #5363f7;
+    bottom: -0.23rem;
+    transform: translateX(-50%); }
   .heading::after {
     position: absolute;
     content: '';
-    left: 0;
-    width: 100%; }
+    left: 50%;
+    width: 10rem;
+    height: 0.2rem;
+    background: #07001d;
+    bottom: -0.1rem;
+    transform: translateX(-50%); }
 
 .btn-primary-hire {
   display: inline-block;
