@@ -124,7 +124,7 @@ p, li, a, i, span {
     position: absolute;
     content: '';
     left: 50%;
-    width: 10rem;
+    width: 13rem;
     height: 0.1rem;
     background: #07001d;
     bottom: 0;
@@ -207,3 +207,6 @@ nav {
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+
+p {
+  text-overflow: ellipsis; }

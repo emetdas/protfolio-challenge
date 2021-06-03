@@ -62,4 +62,7 @@ nav{
         grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
     }
 }
+p{
+    text-overflow: ellipsis;
+}
 // Home-end
