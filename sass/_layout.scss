@@ -5,7 +5,11 @@ header{
 nav{
     height: $nav-height;
 }
+.mobile-icon.active + .manue{
+    display: block;
+}
 .manue{
+    display: none;
     position: absolute;
     top: $nav-height;
     left: 0;

@@ -106,7 +106,11 @@ header {
 nav {
   height: 6rem; }
 
+.mobile-icon.active + .manue {
+  display: block; }
+
 .manue {
+  display: none;
   position: absolute;
   top: 6rem;
   left: 0;
