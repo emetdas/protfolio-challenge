@@ -137,7 +137,8 @@ header {
   width: 100%;
   background: white;
   z-index: 100;
-  box-shadow: 0 0 1rem goldenrod; }
+  -webkit-box-shadow: 0 0 0.2rem gray;
+  box-shadow: 0 0 0.2rem gray; }
 
 nav {
   height: 6rem; }
