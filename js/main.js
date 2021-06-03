@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function logic(){
 // variable
 let nav_manue_icon = document.querySelector('.mobile-icon');
-
+let progress = document.querySelectorAll('.progress');
 
 
 
