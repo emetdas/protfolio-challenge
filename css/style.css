@@ -207,6 +207,3 @@ nav {
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
-
-p {
-  text-overflow: ellipsis; }
