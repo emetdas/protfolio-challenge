@@ -111,8 +111,7 @@ p, li, a, i, span {
   -ms-text-stroke-color: #07001d;
   -o-text-stroke-color: #07001d; }
   .logo .logo-art {
-    font-size: 3rem;
-    -webkit-text-fill-color: #5363f7; }
+    font-size: 3rem; }
 
 header {
   height: 6rem;
