@@ -106,6 +106,7 @@ p, li, a, i, span {
 
 .heading {
   margin: 2rem 0;
+  text-transform: uppercase;
   position: relative;
   padding: 0.5rem 0; }
   .heading::before {

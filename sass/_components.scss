@@ -30,6 +30,7 @@
 // ----------Heading----------
 .heading{
     margin: 2rem 0;
+    text-transform: uppercase;
     position: relative;
     padding: 0.5rem 0;
     &::before{
@@ -48,7 +49,7 @@
         position: absolute;
         content: '';
         left: 50%;
-        width: 10rem;
+        width: 13rem;
         height: 0.1rem;
         background: $black-shade;
         bottom: 0;  
