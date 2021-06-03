@@ -16,5 +16,10 @@ nav{
     & li:nth-child(1){
         margin-top: 2rem; 
     }
+    & li a{
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        color: $white;
+    }
 }
 // Navigation-end
