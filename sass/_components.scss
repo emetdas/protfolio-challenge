@@ -28,7 +28,15 @@
     }
 }
 // ----------Heading----------
-
+.heading{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        left: 0;
+        width: 100%;
+    }
+}
 // ----------Paragraph----------
 
 // ----------Icon----------

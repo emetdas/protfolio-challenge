@@ -104,6 +104,14 @@ p, li, a, i, span {
     .mobile-icon.active::after {
       transform: rotate(-45deg); }
 
+.heading {
+  position: relative; }
+  .heading::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%; }
+
 .btn-primary-hire {
   display: inline-block;
   color: white;
