@@ -1,3 +1,67 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log(event);
+document.addEventListener('DOMContentLoaded', () => {
+    logic();
 });
+function logic(){
+    // variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
