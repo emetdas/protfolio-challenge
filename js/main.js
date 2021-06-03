@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 function logic(){
 // variable
 let nav_manue_icon = document.querySelector('.mobile-icon');
-let nav_manue = document.querySelector('.manue');
 
 
 
@@ -12,7 +11,11 @@ let nav_manue = document.querySelector('.manue');
 
 
 
-
+// Mobile-navbar-start
+nav_manue_icon.addEventListener('click',(e)=>{
+    nav_manue_icon.classList.toggle('active');
+});
+// Mobile-navbar-end
 
 
 
