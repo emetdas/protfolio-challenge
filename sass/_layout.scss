@@ -1,7 +1,9 @@
 // Navigation-start
 header{
+    height: $nav-height;
     width: 100%;
-
+    background: $white;
+    z-index: 100;
 }
 nav{
     height: $nav-height;

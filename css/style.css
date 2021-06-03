@@ -101,7 +101,10 @@ p, li, a, i, span {
       transform: rotate(-45deg); }
 
 header {
-  width: 100%; }
+  height: 6rem;
+  width: 100%;
+  background: white;
+  z-index: 100; }
 
 nav {
   height: 6rem; }
