@@ -17,8 +17,10 @@ nav_manue_icon.addEventListener('click',(e)=>{
 });
 // Mobile-navbar-end
 // Progress-bar-start
-let progressdata = progress.dataset('progress');
-console.log(progressdata);
+progress.forEach((e)=>{ 
+    let progressdata = e.dataset.progress;
+    console.log(progressdata);
+});
 // Progress-bar-end
 
 
