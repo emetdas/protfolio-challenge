@@ -19,7 +19,7 @@ nav_manue_icon.addEventListener('click',(e)=>{
 // Progress-bar-start
 progress.forEach((e)=>{ 
     let progressdata = e.dataset.progress;
-    console.log(progressdata);
+    
 });
 // Progress-bar-end
 
