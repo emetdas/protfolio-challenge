@@ -142,10 +142,11 @@ p, li, a, i, span {
     height: 3.5rem;
     line-height: 3.5rem;
     text-align: center;
-    background: #5363f7;
+    background: white;
     border-radius: 50%;
-    color: white;
-    margin-top: 0.2rem; }
+    color: #5363f7;
+    margin-top: 0.2rem;
+    border: 0.1rem solid #5363f7; }
 
 .btn-primary-hire {
   display: inline-block;
@@ -246,7 +247,7 @@ nav {
   padding: 0.5rem 0; }
 
 .personal-info li {
-  margin-left: 1rem;
+  margin: 1rem 0 1rem 1rem;
   position: relative; }
   .personal-info li span {
     font-weight: bold;

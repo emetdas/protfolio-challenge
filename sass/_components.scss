@@ -71,10 +71,11 @@
         height: 3.5rem;
         line-height: 3.5rem;
         text-align: center;
-        background: $primary;
+        background: $white;
         border-radius: 50%;
-        color: $white;
+        color: $primary;
         margin-top: 0.2rem;
+        border: 0.1rem solid $primary; 
     }
 }
 // ----------Button----------
