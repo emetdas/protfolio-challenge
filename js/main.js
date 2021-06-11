@@ -18,7 +18,7 @@ nav_manue_icon.addEventListener('click',(e)=>{
 // Mobile-navbar-end
 // Progress-bar-start
 progress.forEach((e)=>{ 
-    let progressdata = e.dataset.progress;
+    e.style.width = e.getAttribute('data-progress') + '%';
 });
 // Progress-bar-end
 
