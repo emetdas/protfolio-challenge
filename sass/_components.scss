@@ -89,6 +89,22 @@
 // ----------Circle----------
 
 // ----------Progress-bar----------
+.progress{
+    left: 0;
+    width: 0;
+    position: absolute;
+    left: 0;
+    background: $primary;
+    width: 0;
+    height: 100%;
+    transform-origin: left;
+    border-radius: 1rem;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
 // ----------Portfolio-card----------
 
 // ----------Portfolio-hover----------

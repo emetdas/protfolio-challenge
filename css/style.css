@@ -154,6 +154,22 @@ p, li, a, i, span {
   padding: 0.5rem 1.5rem;
   margin-bottom: 1rem; }
 
+.progress {
+  left: 0;
+  width: 0;
+  position: absolute;
+  left: 0;
+  background: #5363f7;
+  width: 0;
+  height: 100%;
+  transform-origin: left;
+  border-radius: 1rem;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out; }
+
 .logo {
   color: transparent;
   -webkit-text-stroke-width: 0.1rem;
@@ -260,22 +276,6 @@ nav {
   background: #ebebeb;
   position: relative;
   border-radius: 1rem; }
-
-.progress {
-  left: 0;
-  width: 0;
-  position: absolute;
-  left: 0;
-  background: #5363f7;
-  width: 0;
-  height: 100%;
-  transform-origin: left;
-  border-radius: 1rem;
-  transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out; }
 
 .progress-presentage {
   font-weight: bold;
