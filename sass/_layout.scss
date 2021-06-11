@@ -95,8 +95,18 @@ nav{
 .skill-progress:not(:first-child){
     margin-top: 1rem;
 }
+.progress-heading{
+    margin-bottom: 0.5rem;
+}
+.progress{
+    position: relative;
+}
 .progress-presentage{
     font-weight: bold; 
+    top: -2rem;
+    position: absolute;
+    right: 0;
+    color: $blue-shade;
 }
 .skill-progress:last-child{
     margin-bottom: 1rem;
