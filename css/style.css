@@ -130,13 +130,21 @@ p, li, a, i, span {
     bottom: 0;
     transform: translateX(-50%); }
 
-.social-media a i {
-  font-size: 1.8rem;
-  width: 3rem;
-  height: 3rem;
-  line-height: 3rem;
-  text-align: center;
-  background: #5363f7; }
+.social-media {
+  display: flex;
+  margin: 1rem 0;
+  gap: .5rem;
+  flex-wrap: wrap; }
+  .social-media a i {
+    font-size: 1.8rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    background: #5363f7;
+    border-radius: 50%;
+    color: white;
+    margin-top: 0.2rem; }
 
 .btn-primary-hire {
   display: inline-block;
