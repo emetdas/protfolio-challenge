@@ -130,6 +130,14 @@ p, li, a, i, span {
     bottom: 0;
     transform: translateX(-50%); }
 
+.social-media a i {
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: #5363f7; }
+
 .btn-primary-hire {
   display: inline-block;
   color: white;

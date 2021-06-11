@@ -59,7 +59,16 @@
 // ----------Paragraph----------
 
 // ----------Icon----------
-
+.social-media{
+    & a i{
+        font-size: 1.8rem;
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        background: $primary;
+    }
+}
 // ----------Button----------
 .btn-primary-hire{
     display: inline-block;
