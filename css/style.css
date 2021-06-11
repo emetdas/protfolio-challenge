@@ -207,3 +207,11 @@ nav {
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+
+.about-info .paragraph {
+  text-align: justify;
+  padding: 0.5rem 0; }
+
+.personal-info li span {
+  font-weight: bold;
+  color: #07001d; }

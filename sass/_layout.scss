@@ -64,6 +64,12 @@ nav{
 }
 // Home-end
 // About-start
+.about-info{
+    & .paragraph{
+        text-align: justify;
+        padding: 0.5rem 0;
+    }
+}
 .personal-info{
     & li{
         & span{
