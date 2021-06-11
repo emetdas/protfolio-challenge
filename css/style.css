@@ -262,15 +262,17 @@ nav {
   margin-bottom: 0.5rem; }
 
 .progress-bar {
+  height: 1rem;
   background: gray;
-  position: relative; }
+  position: relative;
+  border-radius: 1rem; }
 
 .progress {
   left: 0;
   width: 0;
   position: absolute;
   left: 0;
-  background: gray;
+  background: #5363f7;
   width: 0;
   height: 100%;
   transform-origin: left;

@@ -101,15 +101,17 @@ nav{
     margin-bottom: 0.5rem;
 }
 .progress-bar{
+    height: 1rem;
     background: $greay;
     position: relative;
+    border-radius: 1rem;
 }
 .progress{
     left: 0;
     width: 0;
     position: absolute;
     left: 0;
-    background: $greay;
+    background: $primary;
     width: 0;
     height: 100%;
     transform-origin: left;
