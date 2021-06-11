@@ -72,10 +72,23 @@ nav{
 }
 .personal-info{
     & li{
+        margin-left: 1rem; 
+        position: relative;
         & span{
             font-weight: bold;
             color: $blue-shade; 
             margin-right: 0.3rem;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            width: 1rem;
+            height: 1rem;
+            left: -1.5rem;
+            margin-right: 1rem;
+            top: 50%; 
+            transform: translateY(-50%);
+            background: $primary;
         }
     }
 }

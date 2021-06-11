@@ -228,7 +228,20 @@ nav {
   text-align: justify;
   padding: 0.5rem 0; }
 
-.personal-info li span {
-  font-weight: bold;
-  color: #010042;
-  margin-right: 0.3rem; }
+.personal-info li {
+  margin-left: 1rem;
+  position: relative; }
+  .personal-info li span {
+    font-weight: bold;
+    color: #010042;
+    margin-right: 0.3rem; }
+  .personal-info li::before {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: -1.5rem;
+    margin-right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #5363f7; }
