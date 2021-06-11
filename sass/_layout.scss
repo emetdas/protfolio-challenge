@@ -92,4 +92,10 @@ nav{
         }
     }
 }
+.skill-progress:not(:first-child){
+    margin-top: 1rem;
+}
+.skill-progress:last-child{
+    margin-bottom: 1rem;
+}
 // About-end
