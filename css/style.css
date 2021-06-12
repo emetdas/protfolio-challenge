@@ -47,6 +47,9 @@ p, li, a, i, span {
 .py2 {
   padding: 2rem 0; }
 
+.m-auto {
+  margin: 0 auto; }
+
 .d-grid {
   display: grid; }
 
