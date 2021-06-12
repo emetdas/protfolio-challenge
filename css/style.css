@@ -411,14 +411,21 @@ nav {
 .step-icon img {
   width: 4rem; }
 
+.portfolio-item:not(:first-child) {
+  margin-top: 2rem; }
+
+.portfolio-item:not(:last-child) {
+  margin-bottom: 1rem; }
+
 .portfolio-item {
   display: inline-block;
   -webkit-box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.5);
   box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.5);
   transition: all 0.5s ease;
-  overflow: hidden;
-  margin-bottom: 1rem;
-  margin-right: 1rem; }
+  overflow: hidden; }
+  @media (min-width: 450px) {
+    .portfolio-item {
+      margin-right: 1rem; } }
 
 .portfolio-item.show {
   width: 30rem;

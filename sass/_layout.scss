@@ -144,13 +144,20 @@ nav{
 }
 // Step-End
 // Portfolio-start
+.portfolio-item:not(:first-child){
+    margin-top: 2rem;
+}
+.portfolio-item:not(:last-child){
+    margin-bottom: 1rem;
+}
 .portfolio-item{ 
     display: inline-block;
     @include bx-shadow(0,0,.5rem,rgba($greay,0.5)); 
     transition: all 0.5s ease;
     overflow: hidden;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
+    @media (min-width:450px) {
+        margin-right: 1rem;
+    }
 }
 .portfolio-item.show{
     width: 30rem;
