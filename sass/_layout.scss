@@ -148,8 +148,8 @@ nav{
     @include bx-shadow(0,0,.5rem,rgba($greay,0.5)); 
 }
 .protfolio-links{
-    gap: 1rem;
     & .protfolio-link{
+        margin: 1rem 0;
         cursor: pointer;
         transition: all 0.5s ease-in;
     }
@@ -157,7 +157,7 @@ nav{
         margin-bottom: 1rem; 
     }
 }
-.protfolio-link.active span{
+.protfolio-link.active{
     color: $primary; 
     font-weight: bold;
     position: relative;

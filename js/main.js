@@ -7,7 +7,12 @@ function logic() {
   let nav_manue_icon = document.querySelector('.mobile-icon');
   let manue = document.querySelector('.manue');
   let progress = document.querySelectorAll('.progress');
-
+  let protfolio_links = document.querySelector(
+    '.protfolio-links'
+  );
+  let protfolio_link = document.querySelectorAll(
+    '.protfolio-link'
+  );
   // Mobile-navbar-start
   nav_manue_icon.addEventListener('click', (e) => {
     nav_manue_icon.classList.toggle('active');
@@ -27,12 +32,19 @@ function logic() {
     e.style.width = e.getAttribute('data-progress') + '%';
   });
   // Progress-bar-end
-
-
-
-
-
-
-
-  
+  // Protfolio-part-start
+  protfolio_links.addEventListener('click',(e)=>{
+    var clicked = e.target.closest('.protfolio_link');
+    console.log(clicked);
+    if (!clicked) {
+      return;
+    }
+    protfolio_link.forEach((e) => {
+      e.classList.remove('active');
+    });
+    if (clicked) {
+      clicked.classList.add('active');
+    }
+  })
+  // Protfolio-part-end
 }

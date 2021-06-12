@@ -412,19 +412,19 @@ nav {
   -webkit-box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.5);
   box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.5); }
 
-.protfolio-links {
-  gap: 1rem; }
-  .protfolio-links .protfolio-link {
-    cursor: pointer;
-    transition: all 0.5s ease-in; }
-  .protfolio-links .protfolio-link:last-child {
-    margin-bottom: 1rem; }
+.protfolio-links .protfolio-link {
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in; }
 
-.protfolio-link.active span {
+.protfolio-links .protfolio-link:last-child {
+  margin-bottom: 1rem; }
+
+.protfolio-link.active {
   color: #5363f7;
   font-weight: bold;
   position: relative; }
-  .protfolio-link.active span::after {
+  .protfolio-link.active::after {
     position: absolute;
     content: '';
     left: 50%;
