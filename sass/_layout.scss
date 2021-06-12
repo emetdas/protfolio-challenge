@@ -149,11 +149,27 @@ nav{
 }
 .protfolio-links{
     gap: 1rem;
-    & .protfolio-links{
+    & .protfolio-link{
         cursor: pointer;
+        transition: all 0.5s ease-in;
     }
     & .protfolio-link:last-child{
         margin-bottom: 1rem; 
+    }
+}
+.protfolio-link.active span{
+    color: $primary; 
+    font-weight: bold;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -.7rem;  
+        @include w-h(0.6rem,0.6rem);
+        @include b-r50();
+        background: $primary; 
     }
 }
 // Portfolio-end

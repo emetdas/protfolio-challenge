@@ -148,15 +148,20 @@
 }
 .overlay-content{
     position: absolute;
-    bottom: 10%;
-    gap: 1rem;
+    bottom: 5%; 
     left: 5%;
+    background: $greay; 
+    padding: 1rem; 
+}
+.ind-flex{
+    gap: 1rem; 
 }
 .icon-content{
     gap: .5rem;
-    align-items: center;
+    align-items: center; 
    & *{
-    color: rgba($blue-shade-normal, 0.8);  
+    // color: rgba($white, 0.8);  
+    color: $white; 
    }
 }
 .content-hart{

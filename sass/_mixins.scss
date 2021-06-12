@@ -11,7 +11,7 @@
 @mixin rgba($c, $a) {
   background: rgba($c, $a);
 }
-@mixin prefixTs($w,$c){
+@mixin prefixTs($w, $c) {
   -webkit-text-stroke-width: $w;
   -moz-text-stroke-width: $w;
   -ms-text-stroke-width: $w;
@@ -21,15 +21,15 @@
   -ms-text-stroke-color: $c;
   -o-text-stroke-color: $c;
 }
-@mixin prefixTtf($c){
-    -webkit-text-stroke-color: $c;
-    -moz-text-stroke-color: $c;
-    -ms-text-stroke-color: $c;
-    -o-text-stroke-color: $c;
-    -webkit-text-fill-color: $c;
-    -moz-text-fill-color: $c;
-    -ms-text-fill-color: $c;
-    -o-text-fill-color: $c;
+@mixin prefixTtf($c) {
+  -webkit-text-stroke-color: $c;
+  -moz-text-stroke-color: $c;
+  -ms-text-stroke-color: $c;
+  -o-text-stroke-color: $c;
+  -webkit-text-fill-color: $c;
+  -moz-text-fill-color: $c;
+  -ms-text-fill-color: $c;
+  -o-text-fill-color: $c;
 }
 @mixin prefixTf($t, $s, $e) {
   -webkit-transform: $t #{$s}s $e;
@@ -41,8 +41,8 @@
   -o-transition: $t #{$s}s $e;
   transition: $t #{$s}s $e;
 }
-@mixin bx-shadow($h,$v,$b,$c) {
+@mixin bx-shadow($h, $v, $b, $c) {
   // h-offset v-offset blur spread color
   -webkit-box-shadow: $h $v $b $c;
-          box-shadow: $h $v $b $c;
+  box-shadow: $h $v $b $c;
 }

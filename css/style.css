@@ -213,15 +213,19 @@ p, li, a, i, span {
 
 .overlay-content {
   position: absolute;
-  bottom: 10%;
-  gap: 1rem;
-  left: 5%; }
+  bottom: 5%;
+  left: 5%;
+  background: gray;
+  padding: 1rem; }
+
+.ind-flex {
+  gap: 1rem; }
 
 .icon-content {
   gap: .5rem;
   align-items: center; }
   .icon-content * {
-    color: rgba(1, 0, 66, 0.8); }
+    color: white; }
 
 .content-hart {
   position: absolute;
@@ -410,7 +414,23 @@ nav {
 
 .protfolio-links {
   gap: 1rem; }
-  .protfolio-links .protfolio-links {
-    cursor: pointer; }
+  .protfolio-links .protfolio-link {
+    cursor: pointer;
+    transition: all 0.5s ease-in; }
   .protfolio-links .protfolio-link:last-child {
     margin-bottom: 1rem; }
+
+.protfolio-link.active span {
+  color: #5363f7;
+  font-weight: bold;
+  position: relative; }
+  .protfolio-link.active span::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -.7rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #5363f7; }
