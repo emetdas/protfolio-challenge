@@ -146,7 +146,11 @@ p, li, a, i, span {
     border-radius: 50%;
     color: #5363f7;
     margin-top: 0.2rem;
-    border: 0.1rem solid #5363f7; }
+    border: 0.1rem solid #5363f7;
+    transition: all 0.5s ease-in; }
+    .social-media a i:hover {
+      background: #5363f7;
+      color: white; }
 
 .btn-primary-hire {
   display: inline-block;
@@ -165,7 +169,7 @@ p, li, a, i, span {
   height: 100%;
   transform-origin: left;
   border-radius: 1rem;
-  transition: all 1s ease-in-out;
+  transition: all 3s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
