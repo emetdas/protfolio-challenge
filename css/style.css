@@ -178,9 +178,15 @@ p, li, a, i, span {
 .portfolio-img {
   max-width: 30rem;
   height: 30rem;
-  overflow: hidden; }
+  overflow: hidden;
+  background-position-y: 0%;
+  transition: all 3s ease-in-out;
+  cursor: pointer; }
   .portfolio-img img {
     width: 100%; }
+
+.portfolio-img:hover {
+  background-position-y: 100%; }
 
 .logo {
   color: transparent;
