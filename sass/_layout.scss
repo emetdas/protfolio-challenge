@@ -120,3 +120,16 @@ nav{
     margin-bottom: 1rem;
 }
 // About-end
+// Step-Start
+.setps{
+    gap: 1rem;
+}
+.step{
+    gap: 1rem;
+}
+.step-icon{
+    & img{
+        width: 4rem;
+    }
+}
+// Step-End

@@ -294,3 +294,12 @@ nav {
 
 .skill-progress:last-child {
   margin-bottom: 1rem; }
+
+.setps {
+  gap: 1rem; }
+
+.step {
+  gap: 1rem; }
+
+.step-icon img {
+  width: 4rem; }
