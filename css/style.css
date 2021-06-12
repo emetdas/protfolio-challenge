@@ -44,6 +44,9 @@ p, li, a, i, span {
 .text-center {
   text-align: center; }
 
+.py2 {
+  padding: 2rem 0; }
+
 .d-grid {
   display: grid; }
 
@@ -175,8 +178,18 @@ p, li, a, i, span {
   -ms-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out; }
 
+.portfolio-item {
+  max-width: 30rem;
+  width: 100%; }
+
 .portfolio-img-container {
-  position: relative; }
+  position: relative;
+  max-width: 30rem;
+  width: 100%;
+  height: 30rem; }
+
+.portfolio-contant {
+  padding: 1rem; }
 
 .portfolio-img {
   max-width: 30rem;
@@ -208,7 +221,7 @@ p, li, a, i, span {
   gap: .5rem;
   align-items: center; }
   .icon-content * {
-    color: rgba(1, 0, 66, 0.5); }
+    color: rgba(1, 0, 66, 0.8); }
 
 .content-hart {
   position: absolute;
@@ -221,6 +234,38 @@ p, li, a, i, span {
   line-height: 4rem;
   text-align: center;
   border-radius: 50%; }
+
+.portfolio-img-overlay-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  transform: scale(0);
+  background: rgba(83, 99, 247, 0.8);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in; }
+  .portfolio-img-overlay-hover i {
+    color: #5363f7;
+    width: 4rem;
+    height: 4rem;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4rem; }
+
+.portfolio-img-container:hover > .portfolio-img-overlay-hover {
+  transform: scale(1);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
 
 .logo {
   color: transparent;
@@ -358,3 +403,14 @@ nav {
 
 .step-icon img {
   width: 4rem; }
+
+.portfolio-item {
+  -webkit-box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.5);
+  box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.5); }
+
+.protfolio-links {
+  gap: 1rem; }
+  .protfolio-links .protfolio-links {
+    cursor: pointer; }
+  .protfolio-links .protfolio-link:last-child {
+    margin-bottom: 1rem; }

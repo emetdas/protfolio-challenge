@@ -143,3 +143,17 @@ nav{
     }
 }
 // Step-End
+// Portfolio-start
+.portfolio-item{ 
+    @include bx-shadow(0,0,.5rem,rgba($greay,0.5)); 
+}
+.protfolio-links{
+    gap: 1rem;
+    & .protfolio-links{
+        cursor: pointer;
+    }
+    & .protfolio-link:last-child{
+        margin-bottom: 1rem; 
+    }
+}
+// Portfolio-end
