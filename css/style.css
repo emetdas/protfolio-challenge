@@ -207,7 +207,10 @@ header {
 nav {
   height: 6rem; }
 
-.mobile-icon.active + .manue {
+.mb-icon {
+  cursor: pointer; }
+
+.manue.active {
   left: 0;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
