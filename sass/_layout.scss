@@ -152,7 +152,7 @@ nav{
 }
 .portfolio-item{ 
     display: inline-block;
-    @include bx-shadow(0,0,.5rem,rgba($greay,0.5)); 
+    @include bx-shadow(0,0,.5rem,rgba($greay,0.3)); 
     transition: all 0.5s ease;
     overflow: hidden;
     @media (min-width:450px) {
