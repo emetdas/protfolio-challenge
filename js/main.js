@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   logic();
 });
 function logic() {
-  // variable
+  // variable-start
   let nav_link = document.querySelectorAll('.manue > li');
   let nav_manue_icon = document.querySelector('.mobile-icon');
   let manue = document.querySelector('.manue');
@@ -13,6 +13,8 @@ function logic() {
   let protfolio_link = document.querySelectorAll(
     '.protfolio-link'
   );
+  let protfolio_item = document.querySelectorAll('.portfolio-item');
+  // variable-end
   // Mobile-navbar-start
   nav_manue_icon.addEventListener('click', (e) => {
     nav_manue_icon.classList.toggle('active');
@@ -43,12 +45,22 @@ function logic() {
       pr.classList.remove('active');
     });
     if (clicked) { 
-       console.log(clicked.dataset.protfolio);
       clicked.classList.add('active');
     }
     // protfolio-navigation-end
+    let protfolio_nav_clicked = clicked.getAttribute('data-protfolio');
     // protfolio-item-active-start
-    
+    protfolio_item.forEach((protfolio)=>{
+      let protfolioData = protfolio.getAttribute('data-protfolio');
+      if (protfolioData === protfolio_nav_clicked || protfolio_nav_clicked === 'all') {
+        protfolio.classList.remove('hide');
+        protfolio.classList.add('show');
+      }
+      else{
+        protfolio.classList.remove('show');
+        protfolio.classList.add('hide');
+      }
+    });
     // protfolio-item-active-end
   });
   // Protfolio-part-end
