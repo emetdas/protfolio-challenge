@@ -12,7 +12,7 @@ header{
     width: 100%;
     background: $white;
     z-index: 100;
-    @include bx-shadow(0, 0, 0.2rem, $greay); 
+    @include bx-shadow(0, 0, 0.2rem, $greay);
 }
 nav{
     height: $nav-height;
