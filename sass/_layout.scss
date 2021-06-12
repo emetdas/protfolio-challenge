@@ -129,6 +129,11 @@ nav{
     font-size: 2rem;
     color: $black-shade;
 }
+.step-content {
+    & p{
+        color: rgba($blue-shade-normal, 0.7);
+    }
+}
 .step{
     gap: 1rem;
 }
