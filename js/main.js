@@ -34,17 +34,22 @@ function logic() {
   // Progress-bar-end
   // Protfolio-part-start
   protfolio_links.addEventListener('click',(e)=>{
-    var clicked = e.target.closest('.protfolio_link');
-    console.log(clicked);
+    // protfolio-navigation-start
+    var clicked = e.target.closest('.protfolio-link');
     if (!clicked) {
-      return;
+      return; 
     }
-    protfolio_link.forEach((e) => {
-      e.classList.remove('active');
+    protfolio_link.forEach((pr) => {
+      pr.classList.remove('active');
     });
-    if (clicked) {
+    if (clicked) { 
+       console.log(clicked.dataset.protfolio);
       clicked.classList.add('active');
     }
-  })
+    // protfolio-navigation-end
+    // protfolio-item-active-start
+    
+    // protfolio-item-active-end
+  });
   // Protfolio-part-end
 }
