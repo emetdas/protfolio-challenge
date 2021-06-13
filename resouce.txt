@@ -3,3 +3,5 @@
 Unused css remover in npm package
 
 2:https://www.youtube.com/watch?v=DX7McYRGJ8o&ab_channel=DesignCourse
+
+3:https://css-tricks.com/approaches-media-queries-sass/
