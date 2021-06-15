@@ -219,3 +219,35 @@ nav{
     }
 }
 // What-i-do-end
+// testimonial-start
+.testimonial-slider-container{
+    height: 30rem;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    overflow: hidden;  
+    position: relative;
+    & .testimonial-slider-controler .fa-angle-left,
+    & .testimonial-slider-controler .fa-angle-right{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        cursor: pointer; 
+    }
+    & .testimonial-slider-controler .fa-angle-right{
+        right: 1rem; 
+    }
+   
+}
+.testimonial-slider{
+    width: 300%;
+    height: 100%;
+    & .testimonial-slider-item{
+        flex-basis: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;   
+    }
+}
+// testimonial-end
