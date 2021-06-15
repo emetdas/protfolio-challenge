@@ -144,8 +144,8 @@ nav{
 }
 // Step-End
 // Portfolio-start
-.portfolio-items{
-    grid-template-columns: repeat(auto-fil,(minmax(30rem,1fr)));
+.portfolio-items{ 
+    grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
     gap: 2rem;
 }
 .portfolio-item{ 
