@@ -460,3 +460,25 @@ nav {
     height: 0.6rem;
     border-radius: 50%;
     background: #5363f7; }
+
+#ido {
+  margin-bottom: 2rem; }
+
+.what-do-item {
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); }
+  .what-do-item .what-do {
+    text-align: center;
+    -webkit-box-shadow: 0 0 0.7rem #ebebeb;
+    box-shadow: 0 0 0.7rem #ebebeb;
+    padding: 1.5rem; }
+    .what-do-item .what-do * {
+      padding: 0.5rem 0;
+      transition: all 0.5s ease-in; }
+    .what-do-item .what-do .subheading {
+      color: #010042; }
+    .what-do-item .what-do .paragraph {
+      text-align: justify; }
+    .what-do-item .what-do:hover i,
+    .what-do-item .what-do:hover .subheading {
+      color: #5363f7; }

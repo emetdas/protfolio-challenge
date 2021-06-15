@@ -199,3 +199,31 @@ nav{
     }
 }
 // Portfolio-end
+// What-i-do-start
+#ido{
+    margin-bottom: 2rem;
+}
+.what-do-item{ 
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,(minmax(30rem,1fr)));
+    & .what-do{
+        text-align: center; 
+        @include bx-shadow(0,0,0.7rem,$white-shade);
+        padding: 1.5rem;
+        & *{
+            padding: 0.5rem 0; 
+            transition: all 0.5s ease-in; 
+        }
+        & .subheading{
+            color: $blue-shade;  
+        }
+        & .paragraph{
+            text-align: justify; 
+        }
+        &:hover i,
+        &:hover .subheading{
+            color: $primary; 
+        }
+    }
+}
+// What-i-do-end
