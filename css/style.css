@@ -411,32 +411,27 @@ nav {
 .step-icon img {
   width: 4rem; }
 
-.portfolio-item:not(:first-child) {
-  margin-top: 2rem; }
-
-.portfolio-item:not(:last-child) {
-  margin-bottom: 1rem; }
+.portfolio-items {
+  grid-template-columns: repeat(auto-fil, minmax(30rem, 1fr));
+  gap: 2rem; }
 
 .portfolio-item {
-  display: inline-block;
   -webkit-box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.3);
   box-shadow: 0 0 0.5rem rgba(128, 128, 128, 0.3);
-  transition: all 0.5s ease;
+  transition: all 1s ease;
   overflow: hidden; }
   @media (min-width: 450px) {
     .portfolio-item {
       margin-right: 1rem; } }
 
 .portfolio-item.show {
-  width: 30rem;
-  float: left;
-  transition: all 0.5s ease; }
+  transition: all 0.7s ease; }
 
 .portfolio-item.hide {
   padding: 0;
   width: 0;
   height: 0;
-  transition: all 0.5s ease; }
+  transition: all 1s ease-out; }
 
 .protfolio-links .protfolio-link {
   margin: 1rem 0;
