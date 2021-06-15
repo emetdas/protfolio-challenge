@@ -223,7 +223,7 @@ nav{
 .testimonial-slider-container{
     height: 30rem;
     padding: 1rem 0;
-    margin: 0 1rem;
+    margin: 0 auto;
     overflow: hidden;  
     position: relative;
     & .testimonial-slider-controler .fa-angle-left,
@@ -242,6 +242,7 @@ nav{
 .testimonial-slider{
     width: 300%;
     height: 100%;
+    transition: all 0.5s ease-out;
     & .testimonial-slider-item{
         flex-basis: 100%;
         display: flex;

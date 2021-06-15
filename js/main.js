@@ -14,6 +14,9 @@ function logic() {
     '.protfolio-link'
   );
   let protfolio_item = document.querySelectorAll('.portfolio-item');
+  let tslider =document.querySelector('.testimonial-slider');
+  let taleft =document.querySelector('.arrow-left');
+  let taright =document.querySelector('.arrow-right');
   // variable-end
   // Mobile-navbar-start
   nav_manue_icon.addEventListener('click', (e) => {
@@ -64,4 +67,20 @@ function logic() {
     // protfolio-item-active-end
   });
   // Protfolio-part-end
+  // testimonial-slider-start
+
+  // let sliderItem = document.querySelectorAll('.testimonial-slider-item');
+  // sliderLenght = sliderItem.length;
+  // tslider.style.width = `$()`;
+  
+  let sectionIndex = 0;
+  taright.addEventListener('click',()=>{
+    sectionIndex = (sectionIndex < 2) ? sectionIndex + 1 : 2;
+    tslider.style.transform = 'translate('+sectionIndex * -33.3 +'%)';
+  });
+  taleft.addEventListener('click',()=>{
+    sectionIndex = (sectionIndex > 0) ? sectionIndex - 1 : 0;
+    tslider.style.transform = 'translate('+sectionIndex * -33.3 +'%)';
+  });
+  // testimonial-slider-end
 }
