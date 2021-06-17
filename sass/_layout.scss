@@ -251,6 +251,11 @@ nav{
         flex-direction: column;   
     }
 }
+.client-image{
+    width: 10rem;
+    height: 10rem;
+    @include b-r50();
+}
 // testimonial-end
 // Blog-start
 .Blog{

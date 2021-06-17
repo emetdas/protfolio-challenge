@@ -505,6 +505,11 @@ nav {
     justify-content: center;
     flex-direction: column; }
 
+.client-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%; }
+
 .Blog {
   padding: 2rem 0; }
 
