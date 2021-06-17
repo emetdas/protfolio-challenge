@@ -450,7 +450,7 @@ nav {
     content: '';
     left: 50%;
     transform: translateX(-50%);
-    bottom: -.7rem;
+    bottom: -0.7rem;
     width: 0.6rem;
     height: 0.6rem;
     border-radius: 50%;

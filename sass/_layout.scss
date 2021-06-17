@@ -1,309 +1,308 @@
 // Navigation-start
-.logo{
-    color: transparent;
-    @include prefixTs(0.1rem,$black-shade);
-    & .logo-art{
-        font-size: 3rem;
-        @include prefixTtf($primary);
-    }
+.logo {
+  color: transparent;
+  @include prefixTs(0.1rem, $black-shade);
+  & .logo-art {
+    font-size: 3rem;
+    @include prefixTtf($primary);
+  }
 }
-header{
-    height: $nav-height;
-    width: 100%;
-    background: $white;
-    z-index: 100;
-    @include bx-shadow(0, 0, 0.2rem, $greay);
+header {
+  height: $nav-height;
+  width: 100%;
+  background: $white;
+  z-index: 100;
+  @include bx-shadow(0, 0, 0.2rem, $greay);
 }
-nav{
-    height: $nav-height;
+nav {
+  height: $nav-height;
 }
-.mb-icon{
-    cursor: pointer;
+.mb-icon {
+  cursor: pointer;
 }
-.manue.active{
-    left: 0; 
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    opacity: 1;
-    visibility: visible;
+.manue.active {
+  left: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  visibility: visible;
 }
-.manue{
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: $nav-height;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - #{$nav-height});
-    background: $white;
-    z-index: 99;
-    text-align: center;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    & li:nth-child(1){
-        margin-top: 4rem; 
-    }
-    & li{
-        margin-top: 2rem;
-    }
-    & li a{
-        font-size: 1.7rem;
-        padding: 0.5rem 1rem;
-        color: $black-shade;
-        text-transform: capitalize;
-    }
+.manue {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: $nav-height;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - #{$nav-height});
+  background: $white;
+  z-index: 99;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  & li:nth-child(1) {
+    margin-top: 4rem;
+  }
+  & li {
+    margin-top: 2rem;
+  }
+  & li a {
+    font-size: 1.7rem;
+    padding: 0.5rem 1rem;
+    color: $black-shade;
+    text-transform: capitalize;
+  }
 }
 // Navigation-end
 // Home-start
-.home-content{
-    gap: 1rem;
-    & .btn-container{
-        display: grid;
-        gap: 0.5rem;
-        grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
-    }
+.home-content {
+  gap: 1rem;
+  & .btn-container {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
 }
 // Home-end
 // About-start
-.about-info{
-    & .paragraph{
-        text-align: justify;
-        padding: 0.5rem 0;
-    }
+.about-info {
+  & .paragraph {
+    text-align: justify;
+    padding: 0.5rem 0;
+  }
 }
-.personal-info{
-    & li{
-        margin: 1rem 0 1rem 1rem; 
-        position: relative;
-        & span{
-            font-weight: bold;
-            color: $blue-shade; 
-            margin-right: 0.3rem;
-        }
-        &::before{
-            content: '';
-            position: absolute;
-            width: 1rem;
-            height: 1rem;
-            left: -1.5rem;
-            margin-right: 1rem;
-            top: 50%; 
-            -webkit-transform: translateY(-50%); 
-                -ms-transform: translateY(-50%); 
-                    transform: translateY(-50%);
-            background: $primary;
-        }
-    }
-}
-.skill-progress:not(:first-child){
-    margin-top: 1rem;
-}
-.progress-heading{
-    margin-bottom: 0.5rem;
-}
-.progress-bar{
-    height: 1rem;
-    background: $white-shade;
+.personal-info {
+  & li {
+    margin: 1rem 0 1rem 1rem;
     position: relative;
-    border-radius: 1rem;
+    & span {
+      font-weight: bold;
+      color: $blue-shade;
+      margin-right: 0.3rem;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 1rem;
+      height: 1rem;
+      left: -1.5rem;
+      margin-right: 1rem;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background: $primary;
+    }
+  }
 }
-.progress-presentage{
-    font-weight: bold; 
-    top: -2rem;
-    position: absolute;
-    right: 0;
-    color: $blue-shade;
+.skill-progress:not(:first-child) {
+  margin-top: 1rem;
 }
-.skill-progress:last-child{
-    margin-bottom: 1rem;
+.progress-heading {
+  margin-bottom: 0.5rem;
+}
+.progress-bar {
+  height: 1rem;
+  background: $white-shade;
+  position: relative;
+  border-radius: 1rem;
+}
+.progress-presentage {
+  font-weight: bold;
+  top: -2rem;
+  position: absolute;
+  right: 0;
+  color: $blue-shade;
+}
+.skill-progress:last-child {
+  margin-bottom: 1rem;
 }
 // About-end
 // Step-Start
-.setps{
-    gap: 2.2rem;
+.setps {
+  gap: 2.2rem;
 }
-.step-heading{
-    line-height: 3rem; 
-    font-size: 2rem;
-    color: $black-shade;
+.step-heading {
+  line-height: 3rem;
+  font-size: 2rem;
+  color: $black-shade;
 }
 .step-content {
-    & p{
-        color: rgba($blue-shade-normal, 0.7);
-    }
+  & p {
+    color: rgba($blue-shade-normal, 0.7);
+  }
 }
-.step{
-    gap: 1rem;
+.step {
+  gap: 1rem;
 }
-.step-icon{
-    & img{
-        width: 4rem;
-    }
+.step-icon {
+  & img {
+    width: 4rem;
+  }
 }
 // Step-End
 // Portfolio-start
-.portfolio-items{ 
-    grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
-    gap: 2rem;
+.portfolio-items {
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 2rem;
 }
-.portfolio-item{ 
-    @include bx-shadow(0,0,.5rem,rgba($greay,0.3)); 
-    transition: all 1s ease;
-    overflow: hidden;
-    @media (min-width:450px) {
-        margin-right: 1rem;
-    }
+.portfolio-item {
+  @include bx-shadow(0, 0, 0.5rem, rgba($greay, 0.3));
+  transition: all 1s ease;
+  overflow: hidden;
+  @media (min-width: 450px) {
+    margin-right: 1rem;
+  }
 }
-.portfolio-item.show{
-    transition: all 0.7s ease;
+.portfolio-item.show {
+  transition: all 0.7s ease;
 }
-.portfolio-item.hide{
-    padding: 0;
-    width: 0; 
-    height: 0;
-    transition: all 1s ease-out;
+.portfolio-item.hide {
+  padding: 0;
+  width: 0;
+  height: 0;
+  transition: all 1s ease-out;
 }
-.protfolio-links{
-    & .protfolio-link{
-        margin: 1rem 0;
-        cursor: pointer;
-        transition: all 0.5s ease-in;
-    }
-    & .protfolio-link:last-child{
-        margin-bottom: 1rem; 
-    }
+.protfolio-links {
+  & .protfolio-link {
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+  }
+  & .protfolio-link:last-child {
+    margin-bottom: 1rem;
+  }
 }
-.protfolio-link.active{
-    color: $primary; 
-    font-weight: bold;
-    position: relative;
-    &::after{
-        position: absolute;
-        content: '';
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: -.7rem;  
-        @include w-h(0.6rem,0.6rem);
-        @include b-r50();
-        background: $primary; 
-    }
+.protfolio-link.active {
+  color: $primary;
+  font-weight: bold;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.7rem;
+    @include w-h(0.6rem, 0.6rem);
+    @include b-r50();
+    background: $primary;
+  }
 }
 // Portfolio-end
 // What-i-do-start
-#ido{
-    margin-bottom: 2rem;
+#ido {
+  margin-bottom: 2rem;
 }
-.what-do-item{ 
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit,(minmax(30rem,1fr)));
-    & .what-do{
-        text-align: center; 
-        @include bx-shadow(0,0,0.7rem,$white-shade);
-        padding: 1.5rem;
-        & *{
-            padding: 0.5rem 0; 
-            transition: all 0.5s ease-in; 
-        }
-        & .subheading{
-            color: $blue-shade;  
-        }
-        & .paragraph{
-            text-align: justify; 
-        }
-        &:hover i,
-        &:hover .subheading{
-            color: $primary; 
-        }
+.what-do-item {
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, (minmax(30rem, 1fr)));
+  & .what-do {
+    text-align: center;
+    @include bx-shadow(0, 0, 0.7rem, $white-shade);
+    padding: 1.5rem;
+    & * {
+      padding: 0.5rem 0;
+      transition: all 0.5s ease-in;
     }
+    & .subheading {
+      color: $blue-shade;
+    }
+    & .paragraph {
+      text-align: justify;
+    }
+    &:hover i,
+    &:hover .subheading {
+      color: $primary;
+    }
+  }
 }
 // What-i-do-end
 // testimonial-start
-.testimonial-slider-container{
-    height: 30rem;
-    padding: 1rem 0;
-    margin: 0 auto;
-    overflow: hidden;  
-    position: relative;
-    & .testimonial-slider-controler .fa-angle-left,
-    & .testimonial-slider-controler .fa-angle-right{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 2rem;
-        cursor: pointer; 
-    }
-    & .testimonial-slider-controler .fa-angle-right{
-        right: 1rem; 
-    }
-   
+.testimonial-slider-container {
+  height: 30rem;
+  padding: 1rem 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  & .testimonial-slider-controler .fa-angle-left,
+  & .testimonial-slider-controler .fa-angle-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  & .testimonial-slider-controler .fa-angle-right {
+    right: 1rem;
+  }
 }
-.testimonial-slider{
-    width: 300%;
-    height: 100%;
-    transition: all 0.5s ease-out;
-    & .testimonial-slider-item{
-        flex-basis: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;   
-    }
+.testimonial-slider {
+  width: 300%;
+  height: 100%;
+  transition: all 0.5s ease-out;
+  & .testimonial-slider-item {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
-.client-image{
-    width: 10rem;
-    height: 10rem;
-    @include b-r50();
+.client-image {
+  width: 10rem;
+  height: 10rem;
+  @include b-r50();
 }
 // testimonial-end
 // Blog-start
-.blog-container{
-    grid-template-columns: repeat(auto-fill,(minmax(30rem,1fr)));
+.blog-container {
+  grid-template-columns: repeat(auto-fill, (minmax(30rem, 1fr)));
 }
-.Blog{
-    padding: 2rem 0; 
+.Blog {
+  padding: 2rem 0;
 }
-.blog-items{
-    padding: 1rem; 
-    @include bx-shadow(0,0,0.3rem,$greay);  
-    border-radius: 0.5rem; 
-    & .date{
-        background: $primary; 
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        text-align: center;
-        color: $white;  
-        font-weight: bold; 
-        & span:first-child{
-            font-size: 2.3rem;  
-        }
+.blog-items {
+  padding: 1rem;
+  @include bx-shadow(0, 0, 0.3rem, $greay);
+  border-radius: 0.5rem;
+  & .date {
+    background: $primary;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: $white;
+    font-weight: bold;
+    & span:first-child {
+      font-size: 2.3rem;
     }
-    & img{
-        width: 100%;
-    }
+  }
+  & img {
+    width: 100%;
+  }
 }
-.blog-content{
-    margin: 1rem 0;  
+.blog-content {
+  margin: 1rem 0;
 }
-.blog-detials{
-    gap: 0.4rem;  
-    & *{
-        color: $blue-shade; 
-        padding-right: 0.3rem; 
-    }
+.blog-detials {
+  gap: 0.4rem;
+  & * {
+    color: $blue-shade;
+    padding-right: 0.3rem;
+  }
 }
-.blog-heading{
-    margin-top: 0.5rem;  
-    font-size: 2.3rem;
-    color: rgba($blue-dark,0.9);   
+.blog-heading {
+  margin-top: 0.5rem;
+  font-size: 2.3rem;
+  color: rgba($blue-dark, 0.9);
 }
-.blog-btn{
-    background: $blue-dark;
-    color: $white; 
-    padding: 0.4rem 1rem;
-    margin: 1rem 2rem; 
-    display: inline-block;
-    border-radius: 0.5rem;   
+.blog-btn {
+  background: $blue-dark;
+  color: $white;
+  padding: 0.4rem 1rem;
+  margin: 1rem 2rem;
+  display: inline-block;
+  border-radius: 0.5rem;
 }
 // Blog-end
