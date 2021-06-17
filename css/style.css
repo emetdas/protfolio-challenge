@@ -504,3 +504,12 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column; }
+
+.Blog {
+  padding: 2rem 0; }
+
+.blog-items {
+  -webkit-box-shadow: 0 0 0.3rem #010042;
+  box-shadow: 0 0 0.3rem #010042; }
+  .blog-items img {
+    width: 100%; }
