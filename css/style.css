@@ -524,3 +524,16 @@ nav {
       font-size: 2.6rem; }
   .blog-items img {
     width: 100%; }
+
+.blog-content {
+  margin: 1rem 0; }
+
+.blog-detials {
+  gap: 0.4rem; }
+  .blog-detials * {
+    color: #010042;
+    padding-right: 0.3rem; }
+
+.blog-heading {
+  font-size: 2.3rem;
+  color: rgba(1, 0, 66, 0.7); }
