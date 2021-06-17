@@ -257,7 +257,20 @@ nav{
     padding: 2rem 0; 
 }
 .blog-items{
-    @include bx-shadow(0,0,0.3rem,$blue-shade); 
+    padding: 1rem; 
+    @include bx-shadow(0,0,0.3rem,$greay);  
+    border-radius: 0.5rem; 
+    & .date{
+        background: $primary; 
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        color: $white;  
+        font-weight: bold; 
+        & span:first-child{
+            font-size: 2.6rem; 
+        }
+    }
     & img{
         width: 100%;
     }

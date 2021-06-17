@@ -509,7 +509,18 @@ nav {
   padding: 2rem 0; }
 
 .blog-items {
-  -webkit-box-shadow: 0 0 0.3rem #010042;
-  box-shadow: 0 0 0.3rem #010042; }
+  padding: 1rem;
+  -webkit-box-shadow: 0 0 0.3rem gray;
+  box-shadow: 0 0 0.3rem gray;
+  border-radius: 0.5rem; }
+  .blog-items .date {
+    background: #5363f7;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-weight: bold; }
+    .blog-items .date span:first-child {
+      font-size: 2.6rem; }
   .blog-items img {
     width: 100%; }
