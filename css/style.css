@@ -521,7 +521,7 @@ nav {
     color: white;
     font-weight: bold; }
     .blog-items .date span:first-child {
-      font-size: 2.6rem; }
+      font-size: 2.3rem; }
   .blog-items img {
     width: 100%; }
 
@@ -538,3 +538,11 @@ nav {
   margin-top: 0.5rem;
   font-size: 2.3rem;
   color: rgba(72, 72, 190, 0.9); }
+
+.blog-btn {
+  background: #4848be;
+  color: white;
+  padding: 0.4rem 1rem;
+  margin: 1rem 2rem;
+  display: inline-block;
+  border-radius: 0.5rem; }

@@ -268,7 +268,7 @@ nav{
         color: $white;  
         font-weight: bold; 
         & span:first-child{
-            font-size: 2.6rem; 
+            font-size: 2.3rem;  
         }
     }
     & img{
@@ -289,5 +289,13 @@ nav{
     margin-top: 0.5rem;  
     font-size: 2.3rem;
     color: rgba($blue-dark,0.9);   
+}
+.blog-btn{
+    background: $blue-dark;
+    color: $white; 
+    padding: 0.4rem 1rem;
+    margin: 1rem 2rem; 
+    display: inline-block;
+    border-radius: 0.5rem;   
 }
 // Blog-end
