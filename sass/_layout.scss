@@ -258,6 +258,9 @@ nav{
 }
 // testimonial-end
 // Blog-start
+.blog-container{
+    grid-template-columns: repeat(auto-fill,(minmax(30rem,1fr)));
+}
 .Blog{
     padding: 2rem 0; 
 }

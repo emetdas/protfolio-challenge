@@ -510,6 +510,9 @@ nav {
   height: 10rem;
   border-radius: 50%; }
 
+.blog-container {
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr)); }
+
 .Blog {
   padding: 2rem 0; }
 
