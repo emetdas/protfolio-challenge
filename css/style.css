@@ -518,40 +518,39 @@ nav {
 
 .blog-items {
   padding: 1rem;
-  -webkit-box-shadow: 0 0 0.3rem gray;
-  box-shadow: 0 0 0.3rem gray;
-  border-radius: 0.5rem; }
-  .blog-items .date {
-    background: #5363f7;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    color: white;
-    font-weight: bold; }
-    .blog-items .date span:first-child {
-      font-size: 2.3rem; }
+  -webkit-box-shadow: 0 0 0.4rem #dbdbdb;
+  box-shadow: 0 0 0.4rem #dbdbdb;
+  border-radius: 0.5rem;
+  position: relative; }
   .blog-items img {
     width: 100%; }
+  .blog-items .date {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    text-align: center;
+    color: #07001d;
+    font-weight: bold; }
 
 .blog-content {
   margin: 1rem 0; }
-
-.blog-detials {
-  gap: 0.4rem; }
-  .blog-detials * {
-    color: #010042;
-    padding-right: 0.3rem; }
 
 .blog-heading {
   margin-top: 0.5rem;
   font-size: 2.3rem;
   color: rgba(72, 72, 190, 0.9); }
 
+.blog-content p {
+  text-align: justify; }
+
 .blog-btn {
   background: #4848be;
   color: white;
   padding: 0.4rem 1rem;
-  margin: 1rem 2rem;
+  margin: 1rem 0;
   display: inline-block;
   border-radius: 0.5rem; }
 
