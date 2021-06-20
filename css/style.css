@@ -533,13 +533,14 @@ nav {
     left: 10%;
     text-align: center;
     color: #07001d;
-    font-weight: bold; }
+    font-weight: 500;
+    font-size: 1.6rem; }
 
 .blog-content {
   margin: 1rem 0; }
 
 .blog-heading {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   font-size: 2.3rem;
   color: rgba(72, 72, 190, 0.9); }
 
