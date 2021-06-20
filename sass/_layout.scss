@@ -172,6 +172,10 @@ nav {
     margin: 1rem 0;
     cursor: pointer;
     transition: all 0.5s ease-in;
+    @media (min-width:450px){
+      display: inline-block; 
+      padding: 0 1rem; 
+    }
   }
   & .protfolio-link:last-child {
     margin-bottom: 1rem;
