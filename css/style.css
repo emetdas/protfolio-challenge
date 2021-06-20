@@ -306,41 +306,6 @@ header {
 nav {
   height: 6rem; }
 
-.mb-icon {
-  cursor: pointer; }
-
-.manue.active {
-  left: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  opacity: 1;
-  visibility: visible; }
-
-.manue {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  top: 6rem;
-  left: 0;
-  width: 100%;
-  height: calc(100vh - 6rem);
-  background: white;
-  z-index: 99;
-  text-align: center;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
-  .manue li:nth-child(1) {
-    margin-top: 4rem; }
-  .manue li {
-    margin-top: 2rem; }
-  .manue li a {
-    font-size: 1.7rem;
-    padding: 0.5rem 1rem;
-    color: #07001d;
-    text-transform: capitalize; }
-
 .home-content {
   gap: 1rem; }
   .home-content .btn-container {
@@ -586,3 +551,49 @@ nav {
     font-size: 2rem;
     background: black;
     border-radius: 50%; }
+
+@media (min-width: 945px) {
+  .manue {
+    opacity: 1;
+    visibility: visible; }
+    .manue li {
+      display: inline-block;
+      margin-right: 1rem; }
+      .manue li a {
+        color: #07001d; }
+  .mb-icon {
+    display: none; } }
+
+@media (max-width: 944px) {
+  .mb-icon {
+    cursor: pointer; }
+  .manue.active {
+    left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    visibility: visible; }
+  .manue {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 6rem);
+    background: white;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .manue li:nth-child(1) {
+      margin-top: 4rem; }
+    .manue li {
+      margin-top: 2rem; }
+    .manue li a {
+      font-size: 1.7rem;
+      padding: 0.5rem 1rem;
+      color: #07001d;
+      text-transform: capitalize; } }
