@@ -306,3 +306,37 @@ nav {
   border-radius: 0.5rem;
 }
 // Blog-end
+// Footer-start
+.footer{
+  background: $blue-shade;
+  padding: 2rem 0;
+  & *{
+    color: $white; 
+  }
+  .footer-container{
+    flex-direction: column;
+    @media (min-width:450px) {
+      flex-direction: row; 
+    }
+  }
+  .footer-item-copyright{
+    gap: 2rem; 
+    display: flex;
+    flex-direction: column;
+    @media (min-width:450px){
+      flex-direction: row;
+    }
+  }
+  .footer-social{
+    & a i{
+      width: 3.5rem; 
+      height: 3.5rem; 
+      line-height: 3.5rem; 
+      text-align: center; 
+      font-size: 2rem;  
+      background: darken($black,0.5);   
+      @include b-r50();
+    }
+  }
+}
+// Footer-end

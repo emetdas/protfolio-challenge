@@ -554,3 +554,29 @@ nav {
   margin: 1rem 2rem;
   display: inline-block;
   border-radius: 0.5rem; }
+
+.footer {
+  background: #010042;
+  padding: 2rem 0; }
+  .footer * {
+    color: white; }
+  .footer .footer-container {
+    flex-direction: column; }
+    @media (min-width: 450px) {
+      .footer .footer-container {
+        flex-direction: row; } }
+  .footer .footer-item-copyright {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 450px) {
+      .footer .footer-item-copyright {
+        flex-direction: row; } }
+  .footer .footer-social a i {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: black;
+    border-radius: 50%; }
