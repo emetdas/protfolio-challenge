@@ -132,6 +132,8 @@ nav {
 .step-content {
   & p {
     color: rgba($blue-shade-normal, 0.7);
+    text-align: justify; 
+    font-weight: 500; 
   }
 }
 .step {

@@ -403,7 +403,9 @@ nav {
   color: #07001d; }
 
 .step-content p {
-  color: rgba(1, 0, 66, 0.7); }
+  color: rgba(1, 0, 66, 0.7);
+  text-align: justify;
+  font-weight: 500; }
 
 .step {
   gap: 1rem; }
