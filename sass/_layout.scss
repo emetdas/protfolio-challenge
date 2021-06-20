@@ -30,7 +30,10 @@ nav {
   }
 }
 .contact-btn{
-  color: $black-shade;
+  color: $white; 
+  background: $primary; 
+  padding: 0.4rem 1rem;
+  border-radius: .8rem; 
   font-weight: 500;
   font-size: 1.7rem;
   display: inline-block; 
