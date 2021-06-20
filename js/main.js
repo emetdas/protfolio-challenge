@@ -33,7 +33,7 @@ function logic() {
     });
   });
   // Nav-link is Clicked the manue is close-end
-  // smoth-scroll-start
+  // smoth-scroll-start 
   nav_links.forEach((l)=>{
     l.addEventListener('click',function(t){
       t.preventDefault(); 
