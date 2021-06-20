@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function logic() {
   // variable-start
   let nav_link = document.querySelectorAll('.manue > li');
+  let nav_links = document.querySelectorAll('.manue li a');
   let nav_manue_icon = document.querySelector('.mobile-icon');
   let manue = document.querySelector('.manue');
   let progress = document.querySelectorAll('.progress');
@@ -32,6 +33,15 @@ function logic() {
     });
   });
   // Nav-link is Clicked the manue is close-end
+  // smoth-scroll-start
+  nav_links.forEach((l)=>{
+    l.addEventListener('click',function(t){
+      t.preventDefault(); 
+      let target = this.getAttribute('href');
+      document.querySelector(target).scrollIntoView({behavior: 'smooth'});
+    });
+  });
+  // smoth-scroll-end
   // Progress-bar-start
   progress.forEach((e) => {
     e.style.width = e.getAttribute('data-progress') + '%';
