@@ -50,6 +50,9 @@ p, li, a, i, span {
 .m-auto {
   margin: 0 auto; }
 
+.my-2 {
+  margin: 1rem 0; }
+
 .d-grid {
   display: grid; }
 
@@ -308,10 +311,10 @@ nav {
 
 .home-content {
   gap: 1rem; }
-  .home-content .btn-container {
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+  .home-content .hero-img {
+    width: 100%; }
+  .home-content .home-content-box {
+    text-align: justify; }
 
 .about-info .paragraph {
   text-align: justify;
@@ -560,13 +563,20 @@ nav {
       display: inline-block;
       margin-right: 1rem; }
       .manue li a {
-        color: #07001d; }
+        color: #07001d;
+        font-weight: 500; }
   .mb-icon {
     display: none; } }
 
 @media (min-width: 550px) {
+  .home-content-box {
+    order: -1; }
   .home-content {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .btn-container a {
+    display: inline-block; }
+    .btn-container a:last-child {
+      margin-left: 2rem; } }
 
 @media (max-width: 944px) {
   .mb-icon {

@@ -22,10 +22,11 @@ nav {
 // Home-start
 .home-content {
   gap: 1rem;
-  & .btn-container {
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  & .hero-img{
+    width: 100%;
+  }
+  .home-content-box{
+    text-align: justify;
   }
 }
 // Home-end
