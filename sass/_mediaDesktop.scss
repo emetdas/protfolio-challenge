@@ -35,6 +35,7 @@
         grid-template-columns: repeat(auto-fit,(minmax(30rem,1fr)));
     }
     .step-of-dev{ 
+        padding: 2rem 0;
         grid-template-columns: repeat(auto-fit,(minmax(30rem,1fr))); 
     }
 }
