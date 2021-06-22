@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Emet Das</h1>
 
-**Languages and Tools:** 
+<h1 align="center">Languages and Tools</h1>
 
 <div align="center">
 <code><img height="20" src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png"></code>
