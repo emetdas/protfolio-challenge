@@ -28,10 +28,10 @@
 <code><img height="20" src="https://user-images.githubusercontent.com/65107679/92309901-3007c000-ef5e-11ea-8d2e-6c0fe75dae13.png"></code>   
 
 
-<a href="https://github.com/tusharhow">
+<a href="https://github.com/emetdas">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emetdas&theme=light&hide_langs_below=1" />
 </a>
-<a href="https://github.com/tusharhow">
+<a href="https://github.com/emetdas">
  <img align="center" src="https://github-readme-stats.vercel.app/api?username=emetdas&show_icons=true&theme=light&line_height=40" alt="Emet Das Github statistics"/>
 </a>
 
