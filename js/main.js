@@ -78,6 +78,7 @@ function logic() {
   });
   // Protfolio-part-end
   // testimonial-slider-start
+  
   let sectionIndex = 0;
   taright.addEventListener('click',()=>{
     sectionIndex = (sectionIndex < 2) ? sectionIndex + 1 : 2;
