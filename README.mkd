@@ -1,17 +1,5 @@
 <h1 align="center">Hi 👋, I'm Emet Das</h1>
 
-<a href="https://twitter.com/DasEmet">
-  <img align="left" alt="Emet Das Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
-<a href="https://www.linkedin.com/in/emet-das-b16485196/">
-  <img align="left" alt="Tushar's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>
-<a href="https://www.facebook.com/emet.me/">
-  <img align="left" alt="Emet Das Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-</a>
-<br/>
-<br/>
-
 **Languages and Tools:** 
 
 <code><img height="20" src="https://user-images.githubusercontent.com/65107679/90793334-6f62c980-e32d-11ea-82e1-5ada899d078b.png"></code>
