@@ -34,9 +34,3 @@
 <a href="https://github.com/emetdas">
  <img align="center" src="https://github-readme-stats.vercel.app/api?username=emetdas&show_icons=true&theme=light&line_height=40" alt="Emet Das Github statistics"/>
 </a>
-
-<div align="center">
-
-### Show some ❤️ by starring some of the repositories!
-
-</div>
