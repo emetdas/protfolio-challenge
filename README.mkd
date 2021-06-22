@@ -32,11 +32,13 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emetdas&theme=light&hide_langs_below=1" />
 </a>
 <a href="https://github.com/tusharhow">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=emetdas&show_icons=true&theme=light&line_height=50" alt="Emet Das Github statistics"/>
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=emetdas&show_icons=true&theme=light" alt="Emet Das Github statistics"/>
 </a>
 
 <div align="center">
 
-### Show some ❤️ by starring some of the repositories!
+### Show some ❤️ by starring some of the repositories! 
+
+&line_height=50
 
 </div>
