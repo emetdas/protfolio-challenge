@@ -587,6 +587,8 @@ nav {
     border-radius: 50%; }
 
 .contact {
+  opacity: 0;
+  visibility: hidden;
   z-index: 100;
   position: fixed;
   top: 0;
@@ -604,18 +606,47 @@ nav {
   background: white;
   padding: 1rem;
   width: 35rem;
-  border-radius: 1rem; }
-  .contact-container #contact-form .form-container {
-    margin-bottom: 1rem;
-    gap: 0.5rem;
-    display: flex;
-    flex-direction: column; }
-  .contact-container #contact-form textarea {
-    width: 100%;
-    resize: none;
-    margin-bottom: 1rem; }
-  .contact-container #contact-form .submit {
-    display: block; }
+  border-radius: 0.4rem; }
+  .contact-container .fa-times {
+    float: right;
+    border-radius: 50%;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #4848be;
+    cursor: pointer; }
+  .contact-container #contact-form {
+    display: block;
+    margin-top: 1.5rem; }
+    .contact-container #contact-form .form-container {
+      margin-bottom: 1rem;
+      gap: 0.5rem;
+      display: flex;
+      flex-direction: column; }
+    .contact-container #contact-form input {
+      padding: 0.3rem 0.5rem;
+      border: 0.1rem solid gray; }
+    .contact-container #contact-form textarea {
+      width: 100%;
+      resize: none;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 0.1rem solid gray;
+      padding: 0.3rem 0.3rem;
+      height: 10rem; }
+      .contact-container #contact-form textarea::-webkit-scrollbar {
+        width: 0.6rem; }
+    .contact-container #contact-form .submit {
+      display: block;
+      background: #5363f7;
+      color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0.7rem 1rem;
+      font-weight: bold;
+      border-radius: .3rem; }
 
 @media (min-width: 945px) {
   .manue {
