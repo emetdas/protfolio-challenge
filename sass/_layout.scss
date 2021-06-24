@@ -95,6 +95,16 @@ nav {
 .skill-progress:last-child {
   margin-bottom: 1rem;
 }
+.skill-accordion-heading{
+  background: $primary; 
+  color: $white; 
+  padding: 1rem;
+  cursor: pointer; 
+}
+.skill-accordion-body{
+  padding: 1rem;
+  background: rgba($white-shade,0.3);  
+}
 // About-end
 // Step-Start
 .setps {

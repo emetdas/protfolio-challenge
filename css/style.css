@@ -393,6 +393,16 @@ nav {
 .skill-progress:last-child {
   margin-bottom: 1rem; }
 
+.skill-accordion-heading {
+  background: #5363f7;
+  color: white;
+  padding: 1rem;
+  cursor: pointer; }
+
+.skill-accordion-body {
+  padding: 1rem;
+  background: rgba(235, 235, 235, 0.3); }
+
 .setps {
   gap: 2.2rem; }
 
