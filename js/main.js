@@ -98,5 +98,10 @@ function logic() {
   contact_close.addEventListener('click',()=>{
     contact_body.classList.remove('active-contact');
   });
+  window.addEventListener('click',(e)=>{
+    if(e.target == contact_body){
+      contact_body.classList.remove('active-contact');
+    }
+  });
   // Contact-form-end
 }
