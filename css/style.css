@@ -586,6 +586,9 @@ nav {
     background: black;
     border-radius: 50%; }
 
+.contact-btn {
+  cursor: pointer; }
+
 .contact {
   opacity: 0;
   visibility: hidden;
@@ -595,6 +598,7 @@ nav {
   left: 0;
   bottom: 0;
   right: 0;
+  overflow-y: scroll;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -716,3 +720,9 @@ nav {
       padding: 0.5rem 1rem;
       color: #07001d;
       text-transform: capitalize; } }
+
+@media (max-width: 500px) {
+  .contact-container {
+    background: white;
+    padding: 1rem;
+    width: 29rem; } }

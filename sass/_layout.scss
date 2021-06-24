@@ -323,6 +323,9 @@ nav {
 }
 // Footer-end
 // Contact-form-desing-start
+.contact-btn{
+  cursor: pointer; 
+}
 .contact{
   opacity: 0;
   visibility: hidden;
@@ -332,6 +335,7 @@ nav {
   left: 0;
   bottom: 0;
   right: 0;
+  overflow-y: scroll;
   display: flex;
   align-items: center;
   justify-content: center; 
