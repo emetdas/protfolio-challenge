@@ -162,6 +162,7 @@ input:focus, textarea:focus {
     transform: translateX(-50%); }
 
 .social-media {
+  max-width: 39rem;
   display: flex;
   justify-content: space-between;
   margin: 1rem 0;
@@ -817,4 +818,6 @@ nav {
   .contact-container {
     background: white;
     padding: 1rem;
-    width: 29rem; } }
+    width: 29rem; }
+  .social-media {
+    max-width: 29rem; } }
