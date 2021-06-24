@@ -18,6 +18,9 @@ function logic() {
   let tslider =document.querySelector('.testimonial-slider');
   let taleft =document.querySelector('.arrow-left');
   let taright =document.querySelector('.arrow-right');
+  let contact_body = document.querySelector('.contact');
+  let contact_btn = document.querySelector('.contact-btn');
+  let contact_close = document.querySelector('.fa-times');
   // variable-end
   // Mobile-navbar-start
   nav_manue_icon.addEventListener('click', (e) => {
@@ -88,4 +91,12 @@ function logic() {
     tslider.style.transform = 'translate('+sectionIndex * -33.3 +'%)';
   });
   // testimonial-slider-end
+  // Contact-form-start
+  contact_btn.addEventListener('click',()=>{
+    contact_body.classList.add('active-contact');
+  });
+  contact_close.addEventListener('click',()=>{
+    contact_body.classList.remove('active-contact');
+  });
+  // Contact-form-end
 }

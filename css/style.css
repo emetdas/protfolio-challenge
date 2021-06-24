@@ -600,7 +600,13 @@ nav {
   justify-content: center;
   flex-direction: column;
   background: rgba(235, 235, 235, 0.5);
-  backdrop-filter: blur(0.7rem); }
+  backdrop-filter: blur(0.7rem);
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+.contact.active-contact {
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
 .contact-container {
   background: white;
