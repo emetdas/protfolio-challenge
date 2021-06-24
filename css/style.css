@@ -50,6 +50,9 @@ h6 {
 div, p, li, a, i, span, input, label {
   font-size: 1.6rem; }
 
+.mb-1 {
+  margin-bottom: 1rem; }
+
 input, textarea,
 input:focus, textarea:focus {
   outline: none; }
