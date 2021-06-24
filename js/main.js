@@ -45,6 +45,9 @@ function logic() {
     });
   });
   // smoth-scroll-end
+  // Skill-accordion-start
+  
+  // Skill-accordion-end
   // Progress-bar-start
   progress.forEach((e) => {
     e.style.width = e.getAttribute('data-progress') + '%';
