@@ -50,6 +50,9 @@ h6 {
 div, p, li, a, i, span, input, label {
   font-size: 1.6rem; }
 
+.cp {
+  cursor: pointer; }
+
 .mb-1 {
   margin-bottom: 1rem; }
 
@@ -374,6 +377,9 @@ nav {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     background: #5363f7; }
+
+.skill-progress {
+  max-width: 45rem; }
 
 .skill-progress:not(:first-child) {
   margin-top: 1rem; }
@@ -820,4 +826,8 @@ nav {
     padding: 1rem;
     width: 29rem; }
   .social-media {
-    max-width: 29rem; } }
+    max-width: 29rem; }
+  #contact-form input {
+    padding: 0.2rem 0.5rem !important; }
+  #contact-form #message {
+    height: 5rem; } }

@@ -7,4 +7,13 @@
     .social-media{
         max-width: 29rem;  
     }
+    #contact-form{
+        & input{
+            padding: 0.2rem 0.5rem !important;
+        }
+        & #message{
+            height: 5rem;
+        }
+    }
+    
 }

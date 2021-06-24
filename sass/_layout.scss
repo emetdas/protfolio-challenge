@@ -73,6 +73,9 @@ nav {
     }
   }
 }
+.skill-progress{
+  max-width: 45rem; 
+}
 .skill-progress:not(:first-child) {
   margin-top: 1rem;
 }

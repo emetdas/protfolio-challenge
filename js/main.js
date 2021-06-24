@@ -122,6 +122,10 @@ function logic() {
   });
   // testimonial-slider-end
   // Contact-form-start
+  let hire_me = document.querySelector('.btn-primary-hire');
+  hire_me.addEventListener('click',()=>{
+    contact_body.classList.add('active-contact');
+  });
   contact_btn.addEventListener('click',()=>{
     contact_body.classList.add('active-contact');
   });
@@ -134,4 +138,14 @@ function logic() {
     }
   });
   // Contact-form-end
+  // Contact-form-ajax-star
+  let contact_form = document.querySelector('#contact-form');
+  contact_form.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    let form_data = new FormData(contact_form); 
+    let xhr = new XMLHttpRequest();
+    xhr.open('post','form.php',true);
+    xhr.send(form_data);
+  });
+  // Contact-form-ajax-end
 }
