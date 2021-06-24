@@ -100,12 +100,19 @@ nav {
   color: $white; 
   padding: 1rem;
   cursor: pointer; 
+  & *{ 
+    -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
+    -o-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
 }
 .skill-accordion-body{
   opacity: 0;
   visibility: hidden; 
   max-height: 0;
   background: rgba($white-shade,0.3);  
+  -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
+  -o-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin-bottom: 0.3rem;
   &.active-accrodion{
@@ -113,6 +120,15 @@ nav {
     visibility: visible;
     max-height: 100%;
     padding: 1rem; 
+  }
+}
+.skill-accordion-heading{
+  &.active{
+    & .fa-angle-down{
+      -webkit-transform: rotate(-180deg);
+          -ms-transform: rotate(-180deg);
+              transform: rotate(-180deg);
+    }
   }
 }
 // About-end
@@ -148,6 +164,8 @@ nav {
 }
 .portfolio-item {
   @include bx-shadow(0, 0, 0.5rem, rgba($greay, 0.3));
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
   overflow: hidden;
   @media (min-width: 450px) {
@@ -155,18 +173,24 @@ nav {
   }
 }
 .portfolio-item.show {
+  -webkit-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
 .portfolio-item.hide {
   padding: 0;
   width: 0;
   height: 0;
+  -webkit-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
   transition: all 1s ease-out;
 }
 .protfolio-links {
   & .protfolio-link {
     margin: 1rem 0;
     cursor: pointer;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
     @media (min-width:450px){
       display: inline-block; 
@@ -185,7 +209,9 @@ nav {
     position: absolute;
     content: '';
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     bottom: -0.7rem;
     @include w-h(0.6rem, 0.6rem);
     @include b-r50();
@@ -206,6 +232,8 @@ nav {
     padding: 1.5rem;
     & * {
       padding: 0.5rem 0;
+      -webkit-transition: all 0.5s ease-in;
+      -o-transition: all 0.5s ease-in;
       transition: all 0.5s ease-in;
     }
     & .subheading {
@@ -232,7 +260,9 @@ nav {
   & .testimonial-slider-controler .fa-angle-right {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     font-size: 2rem;
     cursor: pointer;
   }
@@ -243,13 +273,25 @@ nav {
 .testimonial-slider {
   width: 300%;
   height: 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   & .testimonial-slider-item {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 .client-image {
@@ -316,17 +358,31 @@ nav {
     color: $white; 
   }
   .footer-container{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     @media (min-width:450px) {
-      flex-direction: row; 
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; 
     }
   }
   .footer-item-copyright{
     gap: 2rem; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     @media (min-width:450px){
-      flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
     }
   }
   .footer-social{
@@ -356,17 +412,31 @@ nav {
   bottom: 0;
   right: 0;
   overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center; 
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal; 
+      -ms-flex-direction: column; 
+          flex-direction: column;
   background: rgba($white-shade, 0.5); 
-  backdrop-filter: blur(.7rem);
+  -webkit-backdrop-filter: blur(.7rem); 
+          backdrop-filter: blur(.7rem);
+  -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .contact.active-contact{
   opacity: 1;
   visibility: visible;
+  -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .contact-container{
@@ -389,8 +459,13 @@ nav {
     & .form-container{
       margin-bottom: 1rem;  
       gap: 0.5rem;  
+      display: -webkit-box;  
+      display: -ms-flexbox;  
       display: flex;
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
     & input{
       padding: 0.3rem 0.5rem;

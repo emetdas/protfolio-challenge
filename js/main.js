@@ -46,7 +46,34 @@ function logic() {
   });
   // smoth-scroll-end
   // Skill-accordion-start
-  
+  let skill_progress = document.querySelector('.skill-progress');
+  let accrodion_headings = document.querySelectorAll('.skill-accordion-heading');
+  let accrodion_heading = document.querySelector('.skill-accordion-heading');
+  let accrodion_body = document.querySelectorAll('.skill-accordion-body');
+  skill_progress.addEventListener('click',(c)=>{ 
+    let skill_target = c.target.closest('.skill-accordion-heading');
+    if (!skill_target) {
+      return;
+    }
+    accrodion_headings.forEach((sp) => {
+      sp.classList.remove('active');
+    });
+    if (skill_target) { 
+      skill_target.classList.add('active');
+    }
+    let skill_tab_clicked = skill_target.getAttribute('data-skill');
+    // protfolio-item-active-start
+    accrodion_body.forEach((accrodion)=>{
+      let skill_body_tab = accrodion.getAttribute('data-skill');
+      console.log(skill_body_tab);  
+      if (skill_body_tab === skill_tab_clicked || accrodion_heading === 'active') {
+        accrodion.classList.add('active-accrodion');
+      }
+      else{
+        accrodion.classList.remove('active-accrodion'); 
+      }
+    });
+  });
   // Skill-accordion-end
   // Progress-bar-start
   progress.forEach((e) => {
