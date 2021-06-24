@@ -34,7 +34,7 @@ border-radius: 1rem;
 @for $i from 1 through 6 {
     h#{$i} { font-size: (6rem / $i);}
 }
-p,li,a,i,span,input,label{
+div,p,li,a,i,span,input,label{
     font-size: 1.6rem;
 }
 input,textarea,

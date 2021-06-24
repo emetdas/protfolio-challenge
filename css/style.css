@@ -47,7 +47,7 @@ h5 {
 h6 {
   font-size: 1rem; }
 
-p, li, a, i, span, input, label {
+div, p, li, a, i, span, input, label {
   font-size: 1.6rem; }
 
 input, textarea,
