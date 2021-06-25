@@ -152,7 +152,7 @@ function logic() {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         if (xhr.status === 200) {
           let data = xhr.response;
-          if (data === "success") {
+          if (data == "success") {
             error.innerText = data;
             error.classList.add('success');            
           } else {
