@@ -140,12 +140,29 @@ function logic() {
   // Contact-form-end
   // Contact-form-ajax-star
   let contact_form = document.querySelector('#contact-form');
+  let contact_btn = document.querySelector('.submit');
   contact_form.addEventListener('submit',(e)=>{
     e.preventDefault();
-    let form_data = new FormData(contact_form); 
+  });
+  contact_btn.addEventListener("click", () => {
     let xhr = new XMLHttpRequest();
-    xhr.open('post','form.php',true);
-    xhr.send(form_data);
+    xhr.open("POST", "contact.php", true);
+    xhr.onload = () => {
+      if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.status === 200) {
+          let data = xhr.response;
+          if (data == "success") {
+            errorText.textContent = data;
+            errorText.style.display = "block";
+          } else {
+            errorText.textContent = data;
+            errorText.style.display = "block";
+          }
+        }
+      }
+    };
+    let formData = new FormData(contact_form);
+    xhr.send(formData);
   });
   // Contact-form-ajax-end
 }
