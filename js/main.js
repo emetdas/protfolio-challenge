@@ -152,11 +152,8 @@ function logic() {
         if (xhr.status === 200) {
           let data = xhr.response;
           if (data == "success") {
+            contact_body.classList.remove('active-contact');
             console.log(data);
-            setTimeout(remove,1000);
-            function remove(){
-              contact_body.classList.remove('active-contact');
-            }
           } else {
             console.log(data);
           }
