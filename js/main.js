@@ -165,7 +165,7 @@ function logic() {
     let formData = new FormData(contact_form);
     xhr.send(formData);
     contact_form.reset();
-    setInterval(function () {
+    setTimeout(function () {
       contact_body.classList.remove('active-contact');
     },1000);
   });
