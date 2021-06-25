@@ -146,7 +146,7 @@ function logic() {
   });
   contact_btn.addEventListener("click", () => {
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "contact.php", true);
+    xhr.open("POST", "../contact.php", true);
     xhr.onload = () => {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         if (xhr.status === 200) {
