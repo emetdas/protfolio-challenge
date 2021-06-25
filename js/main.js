@@ -141,7 +141,7 @@ function logic() {
   // Contact-form-ajax-star
   let contact_form = document.querySelector('#contact-form');
   let contact_submite = document.querySelector('.submit');
-  let error = document.querySelector('.error');
+  let error = document.querySelector('.error-txt');
   contact_form.addEventListener('submit',(e)=>{
     e.preventDefault();
   });
@@ -152,10 +152,9 @@ function logic() {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         if (xhr.status === 200) {
           let data = xhr.response;
-          if (data == "success") {
+          if (data === "success") {
             error.innerText = data;
-            error.classList.add('success');
-            contact_form.reset();
+            error.classList.add('success');            
           } else {
             error.innerText = data;
             error.classList.add('error');

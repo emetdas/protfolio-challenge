@@ -526,7 +526,7 @@
             <label for="message">Message</label>
             <textarea name="message" id="message"></textarea>
             <button type="submit" class="submit">Send Message</button>
-            <div class="error"></div>
+            <div class="error-txt"></div>
           </form>
         </div>
     </div>

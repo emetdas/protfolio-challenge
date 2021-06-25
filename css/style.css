@@ -114,6 +114,19 @@ input:focus, textarea:focus {
 .flex-d-column-r {
   flex-direction: column-reverse; }
 
+.error-txt {
+  margin-top: 0.4rem; }
+
+.success {
+  padding: 1rem 0.3rem;
+  color: #3ebd1f;
+  background: #dbdbdb; }
+
+.error {
+  padding: 1rem 0.3rem;
+  color: #ff0000;
+  background: #dbdbdb; }
+
 .mobile-icon {
   cursor: pointer;
   position: relative;
