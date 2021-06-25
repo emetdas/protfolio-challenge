@@ -141,6 +141,7 @@ function logic() {
   // Contact-form-ajax-star
   let contact_form = document.querySelector('#contact-form');
   let contact_submite = document.querySelector('.submit');
+  let error = document.querySelector('.error');
   contact_form.addEventListener('submit',(e)=>{
     e.preventDefault();
   });
@@ -152,10 +153,12 @@ function logic() {
         if (xhr.status === 200) {
           let data = xhr.response;
           if (data == "success") {
-            contact_body.classList.remove('active-contact');
-            console.log(data);
+            error.innerText = data;
+            error.classList.add('success');
+            contact_form.reset();
           } else {
-            console.log(data);
+            error.innerText = data;
+            error.classList.add('error');
           }
         }
       }
