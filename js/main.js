@@ -140,19 +140,23 @@ function logic() {
   // Contact-form-end
   // Contact-form-ajax-star
   let contact_form = document.querySelector('#contact-form');
-  let contact_btn = document.querySelector('.submit');
+  let contact_submite = document.querySelector('.submit');
   contact_form.addEventListener('submit',(e)=>{
     e.preventDefault();
   });
-  contact_btn.addEventListener("click", () => {
+  contact_submite.addEventListener("click", () => {
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "../contact.php", true);
+    xhr.open("POST", "contact.php", true);
     xhr.onload = () => {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         if (xhr.status === 200) {
           let data = xhr.response;
           if (data == "success") {
             console.log(data);
+            setTimeout(remove,1000);
+            function remove(){
+              contact_body.classList.remove('active-contact');
+            }
           } else {
             console.log(data);
           }

@@ -513,7 +513,7 @@
     <div class="contact">
         <div class="contact-container">
           <i class="fas fa-times"></i>
-          <form method="post" id="contact-form">
+          <form method="POST" enctype="multipart/form-data" id="contact-form">
             <h2 class="text-center">Message Me</h2>
             <div class="form-container">
               <label for="name">Name</label>
