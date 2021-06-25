@@ -152,11 +152,9 @@ function logic() {
         if (xhr.status === 200) {
           let data = xhr.response;
           if (data == "success") {
-            errorText.textContent = data;
-            errorText.style.display = "block";
+            console.log(data);
           } else {
-            errorText.textContent = data;
-            errorText.style.display = "block";
+            console.log(data);
           }
         }
       }
